@@ -10,6 +10,7 @@ class Blog2 extends Component {
             <>
                 <Navbar />
                 // contoh
+                // contoh 2
 
                 <PageBanner
                     pageTitle="Blog Right Sidebar" 
