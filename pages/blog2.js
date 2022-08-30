@@ -27,3 +27,6 @@ class Blog2 extends Component {
 }
 
 export default Blog2;
+
+
+
