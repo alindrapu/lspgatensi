@@ -29,8 +29,7 @@
     display: none;
   }
   .navbar-area {
-    -webkit-box-shadow: 0 5px 40px 0 rgba(0, 0, 0, 0.8);
-            box-shadow: 0 5px 40px 0 rgba(0, 0, 0, 0.8);
+    box-shadow: 0 5px 40px 0 rgba(0, 0, 0, 0.8);
     background-color: #ffffff;
   }
   .navbar-area .navbar-light .navbar-toggler {
@@ -325,8 +324,6 @@
     padding-bottom: 20px;
   }
   .solutions-list-tab .tabs li {
-    -ms-flex: unset;
-    -webkit-box-flex: unset;
     flex: unset;
     max-width: unset;
     padding-top: 10px;
@@ -392,8 +389,6 @@
     margin: 5px 0 0 0;
   }
   .partner-list .partner-item {
-    -ms-flex: 0 0 50%;
-    -webkit-box-flex: 0;
     flex: 0 0 50%;
     max-width: 50%;
   }
@@ -444,8 +439,6 @@
     margin: 5px 0 8px 0;
   }
   .software-content .features-list li {
-    -ms-flex: 0 0 100%;
-    -webkit-box-flex: 0;
     flex: 0 0 100%;
     max-width: 100%;
   }
@@ -533,8 +526,6 @@
     margin-top: 16px;
   }
   .projects-details-desc .project-details-info .single-info-box {
-    -ms-flex: unset;
-    -webkit-box-flex: unset;
     flex: unset;
     max-width: unset;
     padding-bottom: 15px;
@@ -626,8 +617,7 @@
     font-size: 16px;
   }
   .widget-area .widget_search {
-    -webkit-box-shadow: unset;
-            box-shadow: unset;
+    box-shadow: unset;
     padding: 0;
   }
   .widget-area .widget_search form.search-top {
@@ -703,7 +693,6 @@
     right: 0;
   }
 }
-
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .work-item .work-content {
     max-width: 100%;
@@ -723,7 +712,6 @@
     padding-left: 20px;
   }
 }
-
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .section-title {
     margin-bottom: 40px;
@@ -755,8 +743,7 @@
     max-width: 100px;
   }
   .navbar-area {
-    -webkit-box-shadow: 0 5px 40px 0 rgba(0, 0, 0, 0.11);
-            box-shadow: 0 5px 40px 0 rgba(0, 0, 0, 0.11);
+    box-shadow: 0 5px 40px 0 rgba(0, 0, 0, 0.11);
   }
   .navbar-area .others-options {
     display: none;
@@ -970,8 +957,6 @@
     margin-bottom: 30px;
   }
   .solutions-list-tab .tabs li {
-    -ms-flex: unset;
-    -webkit-box-flex: unset;
     flex: unset;
     max-width: unset;
     padding-top: 10px;
@@ -1030,8 +1015,6 @@
     margin: 5px 0 0 0;
   }
   .partner-list .partner-item {
-    -ms-flex: 0 0 50%;
-    -webkit-box-flex: 0;
     flex: 0 0 33%;
     max-width: 33%;
   }
@@ -1074,8 +1057,6 @@
     margin: 5px 0 8px 0;
   }
   .software-content .features-list li {
-    -ms-flex: 0 0 50%;
-    -webkit-box-flex: 0;
     flex: 0 0 50%;
     max-width: 50%;
     margin-top: 10px;
@@ -1149,8 +1130,6 @@
     margin-top: 20px;
   }
   .projects-details-desc .project-details-info .single-info-box {
-    -ms-flex: 0 0 50%;
-    -webkit-box-flex: 0;
     flex: 0 0 50%;
     max-width: 50%;
     padding-bottom: 10px;
@@ -1171,8 +1150,7 @@
     font-size: 16px;
   }
   .widget-area .widget_search {
-    -webkit-box-shadow: unset;
-            box-shadow: unset;
+    box-shadow: unset;
     padding: 0;
   }
   .widget-area .widget_search form.search-top {
@@ -1229,7 +1207,6 @@
     right: 0;
   }
 }
-
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .navbar-light .navbar-brand {
     margin-left: 0;
@@ -1444,7 +1421,6 @@
     padding-right: 0;
   }
 }
-
 @media only screen and (min-width: 1400px) {
   .main-banner-content {
     max-width: 635px;
@@ -1454,7 +1430,6 @@
     max-width: 635px;
   }
 }
-
 @media only screen and (min-width: 1800px) {
   .main-banner-area {
     height: 1000px;
@@ -1551,5 +1526,4 @@
     right: 26%;
     top: 70px;
   }
-}
-/*# sourceMappingURL=responsive.css.map */
+}/*# sourceMappingURL=responsive.css.map */
