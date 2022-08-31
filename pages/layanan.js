@@ -1,9 +1,6 @@
 import React, { Component } from "react";
 import Navbar from "../components/Layouts/Navbar";
 import PageBanner from "../components/Common/PageBanner";
-import FeaturedService from "../components/Services/FeaturedService";
-import ServicesContent from "../components/Services/ServicesContent";
-import SubscribeStyleThree from "../components/Common/SubscribeStyleThree";
 import Footer from "../components/Layouts/Footer";
 import OurServices from "../components/HomeOne/OurServices";
 

@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Navbar from "../components/Layouts/Navbar";
 import PageBanner from "../components/Common/PageBanner";
 import Footer from "../components/Layouts/Footer";
-import SubklasContentJln from "../components/Services/SubklasContentJln";
+import SubklasContentDp from "../components/Services/SubklasContentDp";
 
 class ServiceDetails extends Component {
   render() {
@@ -15,12 +15,12 @@ class ServiceDetails extends Component {
           breadcrumbTextOne="Beranda"
           breadcrumbTextTwo="Subklasifikasi"
           breadcrumbTextThree="Jabatan Kerja"
-          breadcrumbTextFour="Jalan"
+          breadcrumbTextFour="Drainase Perkotaan"
           breadcrumbUrl="/"
           bgImage="banner-bg-img3"
         />
 
-        <SubklasContentJln />
+        <SubklasContentDp />
 
         <Footer />
       </>
