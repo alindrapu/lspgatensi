@@ -50,7 +50,7 @@ class MainBanner extends Component {
                       animateOnce={true}
                     >
                       <img
-                        src="/images/home-two/image-1.png"
+                        src="/images/home-two/home-two-shape1.png"
                         alt="image"
                       />
                     </ScrollAnimation>
@@ -61,7 +61,7 @@ class MainBanner extends Component {
                       animateOnce={true}
                     >
                       <img
-                        src="/images/home-two/image-4.png"
+                        src="/images/home-two/home-two-shape2.png"
                         alt="image"
                       />
                     </ScrollAnimation>
@@ -72,7 +72,7 @@ class MainBanner extends Component {
                       animateOnce={true}
                     >
                       <img
-                        src="/images/home-two/image-.png"
+                        src="/images/home-two/home-two-shape3.png"
                         alt="image"
                       />
                     </ScrollAnimation>
@@ -83,7 +83,7 @@ class MainBanner extends Component {
                       animateOnce={true}
                     >
                       <img
-                        src="/images/home-two/image-.png"
+                        src="/images/home-two/home-two-shape4.png"
                         alt="image"
                       />
                     </ScrollAnimation>
@@ -94,7 +94,7 @@ class MainBanner extends Component {
                       animateOnce={true}
                     >
                       <img
-                        src="/images/home-two/image-5.png"
+                        src="/images/home-two/home-two-shape5.png"
                         alt="image"
                       />
                     </ScrollAnimation>
@@ -110,14 +110,7 @@ class MainBanner extends Component {
                   </div>
 
                   <div className="circle-img">
-<<<<<<< HEAD
                     <img src="/images/home-two/portal.png" alt="image" />
-=======
-                    <img
-                      src="/images/home-two/portal-1.png"
-                      alt="image"
-                    />
->>>>>>> 0a74123b2ed2262f7526f4429dc877b7b1f0805f
                   </div>
                 </div>
               </div>
