@@ -66,8 +66,6 @@ class MainBanner extends Component {
                       />
                     </ScrollAnimation>
 
-                    
-
                     <ScrollAnimation
                       animateIn="zoomIn"
                       delay={50}
@@ -75,6 +73,17 @@ class MainBanner extends Component {
                     >
                       <img
                         src="/images/home-two/image-5.png"
+                        alt="image"
+                      />
+                    </ScrollAnimation>
+
+                    <ScrollAnimation
+                      animateIn="zoomIn"
+                      delay={50}
+                      animateOnce={true}
+                    >
+                      <img
+                        src="/images/home-two/image-6.png"
                         alt="image"
                       />
                     </ScrollAnimation>
