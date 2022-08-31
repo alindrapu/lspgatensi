@@ -12,9 +12,10 @@ class Pricing extends Component {
                 <Navbar />
 
                 <PageBanner
-                    pageTitle="Pricing" 
+                    pageTitle="Biaya" 
                     breadcrumbTextOne="Home" 
-                    breadcrumbTextTwo="Pricing" 
+                    breadcrumbTextTwo="Biaya" 
+                    breadcrumbTextThree="Sertifikasi" 
                     breadcrumbUrl="/" 
                     bgImage="banner-bg-img4"
                 />

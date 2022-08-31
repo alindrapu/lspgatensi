@@ -66,27 +66,7 @@ class MainBanner extends Component {
                       />
                     </ScrollAnimation>
 
-                    <ScrollAnimation
-                      animateIn="fadeInRight"
-                      delay={50}
-                      animateOnce={true}
-                    >
-                      <img
-                        src="/images/home-two/image-.png"
-                        alt="image"
-                      />
-                    </ScrollAnimation>
-
-                    <ScrollAnimation
-                      animateIn="fadeInUp"
-                      delay={50}
-                      animateOnce={true}
-                    >
-                      <img
-                        src="/images/home-two/image-.png"
-                        alt="image"
-                      />
-                    </ScrollAnimation>
+                    
 
                     <ScrollAnimation
                       animateIn="zoomIn"
@@ -111,7 +91,7 @@ class MainBanner extends Component {
 
                   <div className="circle-img">
                     <img
-                      src="/images/home-two/portal-1.png"
+                      src="/images/home-two/portal.png"
                       alt="image"
                     />
                   </div>
