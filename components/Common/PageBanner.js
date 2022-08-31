@@ -1,35 +1,42 @@
-import React, { Component } from 'react';
-import Link from 'next/link';
+import React, { Component } from "react";
+import Link from "next/link";
 
 class PageBanner extends Component {
-    render() {
+  render() {
+    let {
+      pageTitle,
+      breadcrumbTextOne,
+      breadcrumbTextTwo,
+      breadcrumbTextThree,
+      breadcrumbTextFour,
+      breadcrumbUrl,
+      bgImage,
+    } = this.props;
 
-        let { pageTitle, breadcrumbTextOne, breadcrumbTextTwo, breadcrumbTextThree, breadcrumbTextFour, breadcrumbUrl, bgImage } = this.props;
-
-        return (
-            <div className={`page-title-area ${bgImage}`}>
-                <div className="d-table">
-                    <div className="d-table-cell">
-                        <div className="container">
-                            <div className="page-title-content">
-                                <h2>{pageTitle}</h2>
-                                <ul>
-                                    <li>
-                                        <Link href={breadcrumbUrl}>
-                                            <a>{breadcrumbTextOne}</a>
-                                        </Link>
-                                    </li>
-                                    <li>{breadcrumbTextTwo}</li>
-                                    <li>{breadcrumbTextThree}</li>
-                                    <li>{breadcrumbTextFour}</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    return (
+      <div className={`page-title-area ${bgImage}`}>
+        <div className="d-table">
+          <div className="d-table-cell">
+            <div className="container">
+              <div className="page-title-content">
+                <h2>{pageTitle}</h2>
+                <ul>
+                  <li>
+                    <Link href={breadcrumbUrl}>
+                      <a>{breadcrumbTextOne}</a>
+                    </Link>
+                  </li>
+                  <li>{breadcrumbTextTwo}</li>
+                  <li>{breadcrumbTextThree}</li>
+                  <li>{breadcrumbTextFour}</li>
+                </ul>
+              </div>
             </div>
-        );
-    }
+          </div>
+        </div>
+      </div>
+    );
+  }
 }
 
 export default PageBanner;

@@ -15,7 +15,7 @@ class MainBanner extends Component {
                     <h1>Gatensi Karya Konstruksi</h1>
                     <p>
                       Lembaga Sertifikasi Profesi yang berdiri di bawah naungan
-                      GATENSI. <br />
+                      Gabungan Ahli Teknik Nasional Indonesia (GATENSI). <br />
                       Siap memberikan pelayanan Sertifikasi Profesi untuk para
                       tenaga ahli profesi konstruksi di Seluruh Indonesia.
                     </p>
@@ -110,10 +110,7 @@ class MainBanner extends Component {
                   </div>
 
                   <div className="circle-img">
-                    <img
-                      src="/images/home-two/portal.png"
-                      alt="image"
-                    />
+                    <img src="/images/home-two/portal.png" alt="image" />
                   </div>
                 </div>
               </div>

@@ -1,46 +1,41 @@
 import React, { Component } from "react";
 
-class FeaturedService extends Component {
+class SubklasContentJln extends Component {
   render() {
     return (
-      <section className="software-section p-100">
+      <section className="software-section p-100 m-5">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6">
               <div className="software-content">
-                <span>Our Featured Services</span>
-                <h2>Software Developement Services</h2>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Quis ipsum suspendisse ultrices Lorem Ipsum is simply dummy
-                  text.
-                </p>
+                <h2>Jabatan Kerja Jalan</h2>
 
                 <ul className="features-list">
                   <li>
-                    <span>Software Development</span>
+                    <span>Ahli Muda Bidang Keahlian Teknik Jalan</span>
                   </li>
                   <li>
-                    <span>Automatic Optimization</span>
+                    <span>Ahli Madya Bidang Keahlian Teknik Jalan</span>
                   </li>
                   <li>
-                    <span>Applicatication Services</span>
+                    <span>
+                      Manajer Pelaksanaan Lapangan Pekerjaan Jalan/Jembatan
+                    </span>
                   </li>
                   <li>
-                    <span>IT Security Services</span>
+                    <span>Juru Gambar Pekerjaan Jalan dan Jembatan</span>
                   </li>
                   <li>
-                    <span>Data Analytics</span>
+                    <span>Pelaksana Lapangan Pekerjaan Jalan </span>
                   </li>
                   <li>
-                    <span>System Integration Service</span>
+                    <span>Pelaksana Lapangan Perkerasan Jalan Beton </span>
                   </li>
                   <li>
-                    <span>Help Desk Services</span>
+                    <span>Pelaksana Pemeliharaan Jalan </span>
                   </li>
                   <li>
-                    <span>API Integration Service</span>
+                    <span>Mandor Pekerjaan Jalan </span>
                   </li>
                 </ul>
               </div>
@@ -58,4 +53,4 @@ class FeaturedService extends Component {
   }
 }
 
-export default FeaturedService;
+export default SubklasContentJln;
