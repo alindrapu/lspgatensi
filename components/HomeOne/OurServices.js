@@ -20,7 +20,7 @@ class OurServices extends Component {
 
                                 <h3>Gedung</h3>
                                 
-                                <Link href="/service-details">
+                                <Link href="/service-details-gedung">
                                     <a className="service-btn">
                                         Jabatan Kerja
                                         <i className="flaticon-right"></i>
@@ -37,7 +37,7 @@ class OurServices extends Component {
 
                                 <h3>Material</h3>
                                 
-                                <Link href="/service-details">
+                                <Link href="/service-details-gedung">
                                     <a className="service-btn">
                                         Jabatan Kerja
                                         <i className="flaticon-right"></i>
@@ -53,7 +53,7 @@ class OurServices extends Component {
                                 </div>
                                 <h3>Jalan</h3>
                                 
-                                <Link href="/service-details">
+                                <Link href="/service-details-gedung">
                                     <a className="service-btn">
                                         Jabatan Kerja
                                         <i className="flaticon-right"></i>
@@ -69,7 +69,7 @@ class OurServices extends Component {
                                 </div>
                                 <h3>Jembatan</h3>
                                 
-                                <Link href="/service-details">
+                                <Link href="/service-details-gedung">
                                     <a className="service-btn">
                                         Jabatan Kerja
                                         <i className="flaticon-right"></i>
@@ -85,7 +85,7 @@ class OurServices extends Component {
                                 </div>
                                 <h3>Bendung dan Bendungan</h3>
                                 
-                                <Link href="/service-details">
+                                <Link href="/service-details-gedung">
                                     <a className="service-btn">
                                         Jabatan Kerja
                                         <i className="flaticon-right"></i>
@@ -101,7 +101,7 @@ class OurServices extends Component {
                                 </div>
                                 <h3>Irigasi dan Rawa</h3>
                                 
-                                <Link href="/service-details">
+                                <Link href="/service-details-gedung">
                                     <a className="service-btn">
                                         Jabatan Kerja
                                         <i className="flaticon-right"></i>
@@ -117,7 +117,7 @@ class OurServices extends Component {
                                 </div>
                                 <h3>Sungai dan Pantai</h3>
                                 
-                                <Link href="/service-details">
+                                <Link href="/service-details-gedung">
                                     <a className="service-btn">
                                         Jabatan Kerja
                                         <i className="flaticon-right"></i>
@@ -133,7 +133,7 @@ class OurServices extends Component {
                                 </div>
                                 <h3>Air Tanah dan Air Baku</h3>
                                 
-                                <Link href="/service-details">
+                                <Link href="/service-details-gedung">
                                     <a className="service-btn">
                                         Jabatan Kerja
                                         <i className="flaticon-right"></i>
@@ -150,7 +150,7 @@ class OurServices extends Component {
 
                                 <h3>Bangunan Air Minum</h3>
                                 
-                                <Link href="/service-details">
+                                <Link href="/service-details-gedung">
                                     <a className="service-btn">
                                         Jabatan Kerja
                                         <i className="flaticon-right"></i>
@@ -167,7 +167,7 @@ class OurServices extends Component {
 
                                 <h3>Drainase Perkotaan</h3>
                                 
-                                <Link href="/service-details">
+                                <Link href="/service-details-gedung">
                                     <a className="service-btn">
                                         Jabatan Kerja
                                         <i className="flaticon-right"></i>
@@ -183,7 +183,7 @@ class OurServices extends Component {
                                 </div>
                                 <h3>Bangunan Persampahan</h3>
                                 
-                                <Link href="/service-details">
+                                <Link href="/service-details-gedung">
                                     <a className="service-btn">
                                         Jabatan Kerja
                                         <i className="flaticon-right"></i>
@@ -199,7 +199,7 @@ class OurServices extends Component {
                                 </div>
                                 <h3>Bangunan Air Limbah</h3>
                                 
-                                <Link href="/service-details">
+                                <Link href="/service-details-gedung">
                                     <a className="service-btn">
                                         Jabatan Kerja
                                         <i className="flaticon-right"></i>
@@ -215,7 +215,7 @@ class OurServices extends Component {
                                 </div>
                                 <h3>Geoteknik dan Pondasi</h3>
                                 
-                                <Link href="/service-details">
+                                <Link href="/service-details-gedung">
                                     <a className="service-btn">
                                         Jabatan Kerja
                                         <i className="flaticon-right"></i>
@@ -231,7 +231,7 @@ class OurServices extends Component {
                                 </div>
                                 <h3>Jalan Rel</h3>
                                 
-                                <Link href="/service-details">
+                                <Link href="/service-details-gedung">
                                     <a className="service-btn">
                                         Jabatan Kerja
                                         <i className="flaticon-right"></i>
@@ -247,7 +247,7 @@ class OurServices extends Component {
                                 </div>
                                 <h3>Geodesi</h3>
                                 
-                                <Link href="/service-details">
+                                <Link href="/service-details-gedung">
                                     <a className="service-btn">
                                         Jabatan Kerja
                                         <i className="flaticon-right"></i>
@@ -263,7 +263,7 @@ class OurServices extends Component {
                                 </div>
                                 <h3>Grouting</h3>
                                 
-                                <Link href="/service-details">
+                                <Link href="/service-details-gedung">
                                     <a className="service-btn">
                                         Jabatan Kerja
                                         <i className="flaticon-right"></i>

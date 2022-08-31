@@ -111,7 +111,7 @@ class MainBanner extends Component {
 
                   <div className="circle-img">
                     <img
-                      src="/images/home-two/home-two-shape6.png"
+                      src="/images/home-two/portal.png"
                       alt="image"
                     />
                   </div>
