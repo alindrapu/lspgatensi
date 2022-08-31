@@ -1,11 +1,19 @@
 import React, { Component } from "react";
 import Link from "next/link";
 
-class PricingContent extends Component {
+class ContentBiaya extends Component {
   render() {
     return (
       <div className="pricing-area pt-100 pb-70">
         <div className="container">
+          <div className="section-title">
+            <span>Biaya</span>
+            <h2>Rincian Biaya Sertifikasi Kompetensi Konstruksi</h2>
+            <p>
+              Rincian biaya telah disesuaikan sesuai dengan Peraturan Menteri
+              yang berlaku
+            </p>
+          </div>
           <div className="row ">
             <div className="col-lg-6 col-md-12">
               <div className="single-pricing-box">
@@ -201,4 +209,4 @@ class PricingContent extends Component {
   }
 }
 
-export default PricingContent;
+export default ContentBiaya;

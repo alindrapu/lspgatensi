@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import Navbar from "../components/Layouts/Navbar";
 import PageBanner from "../components/Common/PageBanner";
-import PricingContent from "../components/Pricing/PricingContent";
-import SubscribeStyleThree from "../components/Common/SubscribeStyleThree";
+import ContentBiaya from "../components/Pricing/ContentBiaya";
 import Footer from "../components/Layouts/Footer";
 
 class Pricing extends Component {
@@ -17,10 +16,10 @@ class Pricing extends Component {
           breadcrumbTextTwo="Biaya"
           breadcrumbTextThree="Sertifikasi"
           breadcrumbUrl="/"
-          bgImage="banner-bg-img4"
+          bgImage="banner-bg-img3"
         />
 
-        <PricingContent />
+        <ContentBiaya />
 
         {/* <div className="pb-100">
                     <SubscribeStyleThree />

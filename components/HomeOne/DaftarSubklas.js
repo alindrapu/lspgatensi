@@ -9,6 +9,11 @@ class DaftarSubklas extends Component {
           <div className="section-title">
             <span>Layanan Kami</span>
             <h2>Daftar Subklasifikasi Sipil</h2>
+            <p>
+              LSP Gatensi Karya Konstruksi saat ini melayani permohonan
+              Sertifikasi Kompetensi Konstruksi dengan Klasifikasi Sipil
+              berjumlah 16 Subklasifikasi dengan 59 Jabatan Kerja.
+            </p>
           </div>
 
           <div className="row">
