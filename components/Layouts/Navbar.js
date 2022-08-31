@@ -46,12 +46,12 @@ class Navbar extends Component {
                 <Link href="/">
                   <a className="navbar-brand">
                     <img
-                      src="/images/logo-horizontal.png"
+                      src="/images/logo-white.png"
                       className="white-logo"
                       alt="logo"
                     />
                     <img
-                      src="/images/logo-horizontal.png"
+                      src="/images/logo-color.png"
                       className="black-logo"
                       alt="logo"
                     />

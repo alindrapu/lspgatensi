@@ -14,8 +14,8 @@ class ContactInfo extends Component {
                 <div className="content-title">
                   <h3>Alamat</h3>
                   <p>
-                    Jl. Raya Ragunan No. 1C, Jati Padang, Pasar Minggu, Jakarta
-                    Selatan
+                    <b>Graha Gapensi</b> Jl. Raya Ragunan No. 1C, Jati Padang,
+                    Pasar Minggu, Jakarta Selatan
                   </p>
                 </div>
               </div>
@@ -34,11 +34,15 @@ class ContactInfo extends Component {
 
             <div className="col-lg-4 col-md-6">
               <div className="single-contact-box">
-                <i className="fa fa-whatsapp"></i>
+                <i className="fa fa-phone"></i>
                 <div className="content-title">
-                  <h3>Phone</h3>
-                  <p>+123 (456) 123</p>
-                  <p>+123 (534) 445</p>
+                  <h3>Telefon</h3>
+                  <p>021 7810444</p>
+                  <p>
+                    <a href="https://api.whatsapp.com/send?phone=6281130570777">
+                      0811 3057 0777 (WA)
+                    </a>
+                  </p>
                 </div>
               </div>
             </div>
