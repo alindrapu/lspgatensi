@@ -47,7 +47,15 @@ This files table contents are outlined below>>>>>
 /*================================================
 Default CSS
 =================================================*/
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap");
 
+@font-face {
+  font-family: "Barmby";
+  src: url(/public/fonts/barmby-semibold.otf) format("truetype");
+}
+
+$font-barmby: "Barmby", sans-serif;
+$font-oswald: "Oswald", sans-serif;
 $font-family: "Open Sans", sans-serif;
 $heading-font: "Dosis", sans-serif;
 $main-color: #00b0ee;
@@ -117,6 +125,10 @@ h6 {
   font-weight: bold;
   font-family: $heading-font;
   color: $black-color;
+}
+
+.banner-brand {
+  font-family: $font-oswald;
 }
 p {
   font-size: $font-size;
@@ -3616,6 +3628,34 @@ Pricing Area CSS
       position: relative;
       padding-right: 20px;
       font-weight: 400;
+      &:last-child {
+        margin-bottom: 0;
+      }
+      i {
+        color: $main-color;
+        font-size: 12px;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        &::before {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+  .biaya {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+    li {
+      display: flex;
+      justify-content: end;
+      margin-bottom: 12px;
+      color: $paragraph-color;
+      position: relative;
+      padding-right: 20px;
+      font-weight: bold;
       &:last-child {
         margin-bottom: 0;
       }

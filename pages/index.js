@@ -25,7 +25,7 @@ class Index extends Component {
 
         <AboutUs />
 
-        <FunFacts />
+        {/* <FunFacts /> */}
 
         <WorkingProcess />
 
@@ -39,7 +39,7 @@ class Index extends Component {
 
         {/* <BlogPost /> */}
 
-        <Customers />
+        {/* <Customers /> */}
 
         {/* <Subscribe /> */}
 

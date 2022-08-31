@@ -46,6 +46,11 @@ This files table contents are outlined below>>>>>
 /*================================================
 Default CSS
 =================================================*/
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap");
+@font-face {
+  font-family: "Barmby";
+  src: url(/public/fonts/barmby-semibold.otf) format("truetype");
+}
 body {
   font-size: 15px;
   font-family: "Open Sans", sans-serif;
@@ -109,6 +114,10 @@ h6 {
   font-weight: bold;
   font-family: "Dosis", sans-serif;
   color: #393953;
+}
+
+.banner-brand {
+  font-family: "Oswald", sans-serif;
 }
 
 p {
@@ -3324,6 +3333,34 @@ Pricing Area CSS
   transform: translateY(-50%);
 }
 .single-pricing-box .pricing-features li i::before {
+  font-size: 12px;
+}
+.single-pricing-box .biaya {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style-type: none;
+}
+.single-pricing-box .biaya li {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 12px;
+  color: #737b9a;
+  position: relative;
+  padding-right: 20px;
+  font-weight: bold;
+}
+.single-pricing-box .biaya li:last-child {
+  margin-bottom: 0;
+}
+.single-pricing-box .biaya li i {
+  color: #00b0ee;
+  font-size: 12px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.single-pricing-box .biaya li i::before {
   font-size: 12px;
 }
 .single-pricing-box .price-btn {
