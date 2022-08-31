@@ -13,6 +13,7 @@ import Customers from "../components/Common/Customers";
 import Subscribe from "../components/Common/Subscribe";
 import Footer from "../components/Layouts/Footer";
 import DaftarSubklas from "../components/HomeOne/DaftarSubklas";
+import PricingContent from "./biaya";
 
 class Index extends Component {
   render() {
@@ -23,6 +24,8 @@ class Index extends Component {
         <MainBanner />
 
         <DaftarSubklas />
+
+        <PricingContent />
 
         {/* <AboutUs /> */}
 
