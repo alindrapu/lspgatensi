@@ -13,7 +13,9 @@ class ServiceDetails extends Component {
                 <PageBanner
                     pageTitle="Service Details" 
                     breadcrumbTextOne="Home" 
-                    breadcrumbTextTwo="Service Details" 
+                    breadcrumbTextTwo="Service Details"
+                    breadcrumbTextThree="Jabatan Kerja" 
+                    breadcrumbTextFour="Gedung"
                     breadcrumbUrl="/" 
                     bgImage="banner-bg-img3"
                 />

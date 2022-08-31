@@ -9,8 +9,6 @@ class Blog2 extends Component {
         return (
             <>
                 <Navbar />
-                // contoh
-                // contoh 2
 
                 <PageBanner
                     pageTitle="Blog Right Sidebar" 
@@ -29,5 +27,4 @@ class Blog2 extends Component {
 }
 
 export default Blog2;
-
 

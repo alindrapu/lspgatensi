@@ -4,7 +4,7 @@ import Link from 'next/link';
 class PageBanner extends Component {
     render() {
 
-        let { pageTitle, breadcrumbTextOne, breadcrumbTextTwo, breadcrumbUrl, bgImage } = this.props;
+        let { pageTitle, breadcrumbTextOne, breadcrumbTextTwo, breadcrumbTextThree, breadcrumbTextFour, breadcrumbUrl, bgImage } = this.props;
 
         return (
             <div className={`page-title-area ${bgImage}`}>
@@ -20,6 +20,8 @@ class PageBanner extends Component {
                                         </Link>
                                     </li>
                                     <li>{breadcrumbTextTwo}</li>
+                                    <li>{breadcrumbTextThree}</li>
+                                    <li>{breadcrumbTextFour}</li>
                                 </ul>
                             </div>
                         </div>
