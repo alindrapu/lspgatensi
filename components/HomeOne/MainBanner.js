@@ -49,10 +49,7 @@ class MainBanner extends Component {
                       delay={50}
                       animateOnce={true}
                     >
-                      <img
-                        src="/images/home-two/home-two-shape1.png"
-                        alt="image"
-                      />
+                      <img src="/images/home-two/image-1.png" alt="image" />
                     </ScrollAnimation>
 
                     <ScrollAnimation
@@ -60,10 +57,7 @@ class MainBanner extends Component {
                       delay={50}
                       animateOnce={true}
                     >
-                      <img
-                        src="/images/home-two/home-two-shape2.png"
-                        alt="image"
-                      />
+                      <img src="/images/home-two/image-4.png" alt="image" />
                     </ScrollAnimation>
 
                     <ScrollAnimation
@@ -71,10 +65,7 @@ class MainBanner extends Component {
                       delay={50}
                       animateOnce={true}
                     >
-                      <img
-                        src="/images/home-two/home-two-shape3.png"
-                        alt="image"
-                      />
+                      <img src="/images/home-two/image-.png" alt="image" />
                     </ScrollAnimation>
 
                     <ScrollAnimation
@@ -82,10 +73,7 @@ class MainBanner extends Component {
                       delay={50}
                       animateOnce={true}
                     >
-                      <img
-                        src="/images/home-two/home-two-shape4.png"
-                        alt="image"
-                      />
+                      <img src="/images/home-two/image-.png" alt="image" />
                     </ScrollAnimation>
 
                     <ScrollAnimation
@@ -93,10 +81,7 @@ class MainBanner extends Component {
                       delay={50}
                       animateOnce={true}
                     >
-                      <img
-                        src="/images/home-two/home-two-shape5.png"
-                        alt="image"
-                      />
+                      <img src="/images/home-two/image-5.png" alt="image" />
                     </ScrollAnimation>
 
                     {/* Main image */}
@@ -111,6 +96,7 @@ class MainBanner extends Component {
 
                   <div className="circle-img">
                     <img src="/images/home-two/portal.png" alt="image" />
+                    <img src="/images/home-two/portal-1.png" alt="image" />
                   </div>
                 </div>
               </div>
