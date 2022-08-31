@@ -58,27 +58,13 @@ class MainBanner extends Component {
                     >
                       <img src="/images/home-two/image-4.png" alt="image" />
                     </ScrollAnimation>
-                    {/* <ScrollAnimation
-                      animateIn="fadeInRight"
-                      delay={50}
-                      animateOnce={true}
-                    >
-                      <img src="/images/home-two/image-.png" alt="image" />
-                    </ScrollAnimation>
-                    <ScrollAnimation
-                      animateIn="fadeInUp"
-                      delay={50}
-                      animateOnce={true}
-                    >
-                      <img src="/images/home-two/image-.png" alt="image" />
-                    </ScrollAnimation> */}
 
                     <ScrollAnimation
                       animateIn="zoomIn"
                       delay={50}
                       animateOnce={true}
                     >
-                      <img src="/images/home-two/image-5.png" alt="image" />
+                      <img src="/images/home-two/image-6.png" alt="image" />
                     </ScrollAnimation>
                     {/* Main image */}
                     <ScrollAnimation
