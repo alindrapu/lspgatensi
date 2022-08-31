@@ -2,7 +2,8 @@ import React, { Component } from "react";
 import Navbar from "../components/Layouts/Navbar";
 import PageBanner from "../components/Common/PageBanner";
 import Footer from "../components/Layouts/Footer";
-import OurServices from "../components/HomeOne/OurServices";
+import OurServices from "../components/HomeOne/DaftarSubklas";
+import DaftarSubklas from "../components/HomeOne/DaftarSubklas";
 
 class Services extends Component {
   render() {
@@ -21,7 +22,7 @@ class Services extends Component {
 
         {/* <FeaturedService /> */}
 
-        <OurServices />
+        <DaftarSubklas />
 
         {/* <div className="pb-100">
           <SubscribeStyleThree />

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Navbar from "../components/Layouts/Navbar";
 import MainBanner from "../components/HomeOne/MainBanner";
-import OurServices from "../components/HomeOne/OurServices";
+import OurServices from "../components/HomeOne/DaftarSubklas";
 import AboutUs from "../components/HomeOne/AboutUs";
 import FunFacts from "../components/Common/FunFacts";
 import WorkingProcess from "../components/HomeOne/WorkingProcess";
@@ -12,6 +12,7 @@ import BlogPost from "../components/Common/BlogPost";
 import Customers from "../components/Common/Customers";
 import Subscribe from "../components/Common/Subscribe";
 import Footer from "../components/Layouts/Footer";
+import DaftarSubklas from "../components/HomeOne/DaftarSubklas";
 
 class Index extends Component {
   render() {
@@ -21,9 +22,9 @@ class Index extends Component {
 
         <MainBanner />
 
-        <OurServices />
+        <DaftarSubklas />
 
-        <AboutUs />
+        {/* <AboutUs /> */}
 
         {/* <FunFacts /> */}
 

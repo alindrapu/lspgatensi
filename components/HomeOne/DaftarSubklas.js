@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Link from "next/link";
 
-class OurServices extends Component {
+class DaftarSubklas extends Component {
   render() {
     return (
       <section className="services-section pt-100 pb-70">
@@ -278,4 +278,4 @@ class OurServices extends Component {
   }
 }
 
-export default OurServices;
+export default DaftarSubklas;
