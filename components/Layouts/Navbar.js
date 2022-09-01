@@ -134,7 +134,7 @@ class Navbar extends Component {
                             href="https://perizinan.pu.go.id/portal/registrasi/SKK"
                             activeClassName="active"
                           >
-                            <a className="nav-link">Permohonan Sertifikasi</a>
+                            <a className="nav-link">AJUKAN SKK</a>
                           </Link>
                         </li>
                       </ul>
@@ -152,7 +152,7 @@ class Navbar extends Component {
                           className="nav-link"
                           onClick={(e) => e.preventDefault()}
                         >
-                          Profile<i className="fas fa-chevron-down"></i>
+                          Profil<i className="fas fa-chevron-down"></i>
                         </a>
                       </Link>
                       <ul className="dropdown-menu">
@@ -162,7 +162,7 @@ class Navbar extends Component {
                           </Link>
                         </li>
                         <li>
-                          <Link href="/">
+                          <Link href="/tentang-kami">
                             <a className="nav-link">Tentang Kami</a>
                           </Link>
                         </li>
@@ -196,155 +196,10 @@ class Navbar extends Component {
                       </ul>
                     </li>
 
-                    {/* projects menu */}
-                    {/* <li className="nav-item">
-                      <Link href="/#">
-                        <a
-                          className="nav-link"
-                          onClick={(e) => e.preventDefault()}
-                        >
-                          Projects <i className="fas fa-chevron-down"></i>
-                        </a>
-                      </Link>
-
-                      <ul className="dropdown-menu">
-                        <li className="nav-item">
-                          <Link href="/projects" activeClassName="active">
-                            <a className="nav-link">Projects</a>
-                          </Link>
-                        </li>
-
-                        <li className="nav-item">
-                          <Link
-                            href="/project-details"
-                            activeClassName="active"
-                          >
-                            <a className="nav-link">Project Details</a>
-                          </Link>
-                        </li>
-                      </ul>
-                    </li> */}
-
-                    {/* <li className="nav-item">
-                      <Link href="/#">
-                        <a
-                          className="nav-link"
-                          onClick={(e) => e.preventDefault()}
-                        >
-                          Pages <i className="fas fa-chevron-down"></i>
-                        </a>
-                      </Link>
-
-                      <ul className="dropdown-menu">
-                        <li className="nav-item">
-                          <Link href="/about-us" activeClassName="active">
-                            <a className="nav-link">About Us</a>
-                          </Link>
-                        </li>
-
-                        <li className="nav-item">
-                          <Link href="/team" activeClassName="active">
-                            <a className="nav-link">Team</a>
-                          </Link>
-                        </li>
-
-                        <li className="nav-item">
-                          <Link href="/layanan" activeClassName="active">
-                            <a className="nav-link">Services</a>
-                          </Link>
-                        </li>
-
-                        <li className="nav-item">
-                          <Link
-                            href="/service-details"
-                            activeClassName="active"
-                          >
-                            <a className="nav-link">Service Details</a>
-                          </Link>
-                        </li>
-
-                        <li className="nav-item">
-                          <Link href="/projects" activeClassName="active">
-                            <a className="nav-link">Projects</a>
-                          </Link>
-                        </li>
-
-                        <li className="nav-item">
-                          <Link
-                            href="/project-details"
-                            activeClassName="active"
-                          >
-                            <a className="nav-link">Project Details</a>
-                          </Link>
-                        </li>
-
-                        <li className="nav-item">
-                          <Link href="/pricing" activeClassName="active">
-                            <a className="nav-link">Pricing</a>
-                          </Link>
-                        </li>
-
-                        <li className="nav-item">
-                          <Link href="/partner" activeClassName="active">
-                            <a className="nav-link">Partner</a>
-                          </Link>
-                        </li>
-
-                        <li className="nav-item">
-                          <Link href="/faq" activeClassName="active">
-                            <a className="nav-link">FAQ</a>
-                          </Link>
-                        </li>
-
-                        <li className="nav-item">
-                          <Link href="/coming-soon" activeClassName="active">
-                            <a className="nav-link">Coming Soon</a>
-                          </Link>
-                        </li>
-
-                        <li className="nav-item">
-                          <Link href="/404" activeClassName="active">
-                            <a className="nav-link">404 Error Page</a>
-                          </Link>
-                        </li>
-                      </ul>
-                    </li> */}
-
                     <li className="nav-item">
-                      <Link href="/#">
-                        <a
-                          className="nav-link"
-                          onClick={(e) => e.preventDefault()}
-                        >
-                          Artikel <i className="fas fa-chevron-down"></i>
-                        </a>
+                      <Link href="/blog-details" activeClassName="active">
+                        <a className="nav-link">Artikel</a>
                       </Link>
-
-                      <ul className="dropdown-menu">
-                        <li className="nav-item">
-                          <Link href="/blog" activeClassName="active">
-                            <a className="nav-link">Blog Grid</a>
-                          </Link>
-                        </li>
-
-                        <li className="nav-item">
-                          <Link href="/blog2" activeClassName="active">
-                            <a className="nav-link">Blog Right Sidebar</a>
-                          </Link>
-                        </li>
-
-                        <li className="nav-item">
-                          <Link href="/blog3" activeClassName="active">
-                            <a className="nav-link">Blog Left Sidebar</a>
-                          </Link>
-                        </li>
-
-                        <li className="nav-item">
-                          <Link href="/blog-details" activeClassName="active">
-                            <a className="nav-link">Blog Details</a>
-                          </Link>
-                        </li>
-                      </ul>
                     </li>
 
                     <li className="nav-item">

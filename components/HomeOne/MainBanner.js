@@ -30,10 +30,10 @@ class MainBanner extends Component {
 
                       <Link href="https://perizinan.pu.go.id/portal/registrasi/SKK">
                         <a
-                          className="default-btn"
+                          className="skk-button"
                           href="https://perizinan.pu.go.id/portal/registrasi/SKK"
                         >
-                          Permohonan Sertifikasi
+                          AJUKAN SKK
                           <span></span>
                         </a>
                       </Link>
