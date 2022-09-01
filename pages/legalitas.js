@@ -24,7 +24,7 @@ class Legalitas extends Component {
         <LegalitasContent />
 
         <Footer />
-        <WaButton />
+        {/* <WaButton /> */}
       </>
     );
   }
