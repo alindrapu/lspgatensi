@@ -5,6 +5,7 @@ import Footer from "../components/Layouts/Footer";
 import DaftarSubklas from "../components/HomeOne/DaftarSubklas";
 import ContentBiaya from "../components/Pricing/ContentBiaya";
 import TentangKamiContent from "../components/AboutUs/TentangKamiContent";
+import WaButton from "../components/WhatsappButton/WaButton";
 
 class Index extends Component {
   render() {
