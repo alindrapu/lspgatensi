@@ -72,7 +72,7 @@ class MainBanner extends Component {
                       delay={50}
                       animateOnce={true}
                     >
-                      <img src="/images/home-two/main-image2.png" alt="image" />
+                      <img src="/images/home-two/main-image3.png" alt="image" />
                     </ScrollAnimation>
                   </div>
 
