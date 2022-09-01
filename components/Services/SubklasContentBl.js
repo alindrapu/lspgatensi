@@ -8,7 +8,7 @@ class SubklasContentBl extends Component {
           <div className="row align-items-center">
             <div className="col-lg-6">
               <div className="software-content">
-                <h2>Jabatan Kerja Bangunan Air Limbah</h2>
+                <h2>Jabatan Kerja Subklasifikasi Bangunan Air Limbah</h2>
 
                 <ul className="features-list">
                   <li>

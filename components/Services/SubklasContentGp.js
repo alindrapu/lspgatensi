@@ -8,7 +8,7 @@ class SubklasContentGp extends Component {
           <div className="row align-items-center">
             <div className="col-lg-6">
               <div className="software-content">
-                <h2>Jabatan Kerja Geoteknik dan Pondasi</h2>
+                <h2>Jabatan Kerja Subklasifikasi Geoteknik dan Pondasi</h2>
 
                 <ul className="features-list">
                   <li>

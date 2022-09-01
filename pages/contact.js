@@ -3,7 +3,6 @@ import Navbar from "../components/Layouts/Navbar";
 import PageBanner from "../components/Common/PageBanner";
 import ContactInfo from "../components/Contact/ContactInfo";
 import ContactForm from "../components/Contact/ContactForm";
-import SubscribeStyleThree from "../components/Common/SubscribeStyleThree";
 import Footer from "../components/Layouts/Footer";
 
 class Contact extends Component {
@@ -18,7 +17,7 @@ class Contact extends Component {
           breadcrumbTextTwo="Kontak"
           breadcrumbTextThree="Hubungi Kami"
           breadcrumbUrl="/"
-          bgImage="banner-bg-img1"
+          bgImage="banner-bg-img6"
         />
 
         <ContactInfo />

@@ -8,7 +8,7 @@ class SubklasContentAbk extends Component {
           <div className="row align-items-center">
             <div className="col-lg-6">
               <div className="software-content">
-                <h2>Jabatan Kerja Air Tanah dan Air Baku</h2>
+                <h2>Jabatan Kerja Subklasifikasi Air Tanah dan Air Baku</h2>
 
                 <ul className="features-list">
                   <li>

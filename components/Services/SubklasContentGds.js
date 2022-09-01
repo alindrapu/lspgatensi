@@ -8,7 +8,7 @@ class SubklasContentGds extends Component {
           <div className="row align-items-center">
             <div className="col-lg-6">
               <div className="software-content">
-                <h2>Jabatan Kerja Geodesi</h2>
+                <h2>Jabatan Kerja Subklasifikasi Geodesi</h2>
 
                 <ul className="features-list">
                   <li>

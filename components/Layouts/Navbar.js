@@ -145,8 +145,30 @@ class Navbar extends Component {
 
                     <li className="nav-item">
                       <Link href="/layanan" activeClassName="active">
-                        <a className="nav-link">Layanan</a>
+                        <a
+                          className="nav-link"
+                          onClick={(e) => e.preventDefault()}
+                        >
+                          Layanan<i className="fas fa-chevron-down"></i>
+                        </a>
                       </Link>
+                      <ul className="dropdown-menu">
+                        <li>
+                          <Link href="/subklasifikasi">
+                            <a className="nav-link">Subklasifikasi</a>
+                          </Link>
+                        </li>
+                        <li>
+                          <Link href="/panduan-tuk">
+                            <a className="nav-link">Panduan TUK</a>
+                          </Link>
+                        </li>
+                        <li>
+                          <Link href="/permohonan-tuk">
+                            <a className="nav-link">Permohonan TUK</a>
+                          </Link>
+                        </li>
+                      </ul>
                     </li>
 
                     <li className="nav-item">

@@ -8,7 +8,7 @@ class SubklasContentBdg extends Component {
           <div className="row align-items-center">
             <div className="col-lg-6">
               <div className="software-content">
-                <h2>Jabatan Kerja Bendung dan Bendungan</h2>
+                <h2>Jabatan Kerja Subklasifikasi Bendung dan Bendungan</h2>
 
                 <ul className="features-list">
                   <li>
