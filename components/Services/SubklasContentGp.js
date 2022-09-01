@@ -26,7 +26,7 @@ class SubklasContentGp extends Component {
 
             <div className="col-lg-6">
               <div className="software-image">
-                <img src="/images/software.png" alt="image" />
+                <img src="/images/construction-nobg.png" alt="image" />
               </div>
             </div>
           </div>
