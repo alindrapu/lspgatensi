@@ -130,6 +130,46 @@ p:last-child {
   margin-bottom: 0;
 }
 
+.skk-button {
+  border: none;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  overflow: hidden;
+  z-index: 1;
+  color: black;
+  background-color: #fcd529;
+  transition: 0.6s;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  -webkit-animation: glowing 1500ms infinite;
+  animation: glowing 1500ms infinite;
+}
+.skk-button span {
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background-color: #ef4b4c;
+  transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  border-radius: 5px;
+}
+.skk-button:hover, .skk-button:focus {
+  color: #ffffff;
+}
+.skk-button:hover span, .skk-button:focus span {
+  width: 225%;
+  height: 562.5px;
+}
+
 .default-btn {
   border: none;
   position: relative;
@@ -228,6 +268,48 @@ p:last-child {
   margin-bottom: 20px;
 }
 
+.sksk-button {
+  background-color: #004a7f;
+  border-radius: 10px;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Arial;
+  font-size: 20px;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+@-webkit-keyframes glowing {
+  0% {
+    background-color: rgba(247, 205, 19, 0.8156862745);
+    -webkit-box-shadow: 0 0 3px rgba(247, 205, 19, 0.8156862745);
+  }
+  50% {
+    background-color: #fcd529;
+    -webkit-box-shadow: 0 0 40px #fcd529;
+  }
+  100% {
+    background-color: rgba(247, 205, 19, 0.8156862745);
+    -webkit-box-shadow: 0 0 3px rgba(247, 205, 19, 0.8156862745);
+  }
+}
+@keyframes glowing {
+  0% {
+    background-color: rgba(247, 205, 19, 0.8156862745);
+    box-shadow: 0 0 3px rgba(247, 205, 19, 0.8156862745);
+  }
+  50% {
+    background-color: #fcd529;
+    box-shadow: 0 0 80px #fcd529;
+  }
+  100% {
+    background-color: rgba(247, 205, 19, 0.8156862745);
+    box-shadow: 0 0 3px rgba(247, 205, 19, 0.8156862745);
+  }
+}
 /*================================================
 Preloader Area CSS
 =================================================*/
@@ -2908,19 +2990,19 @@ Page Title Area CSS
   z-index: -1;
 }
 .page-title-area.banner-bg-img1 {
-  background-image: url(/images/page-title-bg.jpg);
+  background-image: url(/images/page-banner-1.png);
 }
 .page-title-area.banner-bg-img2 {
-  background-image: url(/images/page-title-bg-2.jpg);
+  background-image: url(/images/page-banner-2.png);
 }
 .page-title-area.banner-bg-img3 {
-  background-image: url(/images/page-title-bg-3.jpg);
+  background-image: url(/images/page-banner-3.png);
 }
 .page-title-area.banner-bg-img4 {
-  background-image: url(/images/page-title-bg-4.jpg);
+  background-image: url(/images/page-banner-4.png);
 }
 .page-title-area.banner-bg-img5 {
-  background-image: url(/images/page-title-bg-5.jpg);
+  background-image: url(/images/page-banner-5.png);
 }
 
 .page-title-content {

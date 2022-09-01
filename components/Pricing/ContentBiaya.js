@@ -10,8 +10,8 @@ class ContentBiaya extends Component {
             <span>Biaya</span>
             <h2>Rincian Biaya Sertifikasi Kompetensi Konstruksi</h2>
             <p>
-              Rincian biaya telah disesuaikan sesuai dengan Peraturan Menteri
-              yang berlaku
+              Rincian biaya mengacu kepada ketentuan
+              <b> Kementerian Pekerjaan Umum dan Perumahan Rakyat</b>
             </p>
           </div>
           <div className="row ">
@@ -56,7 +56,7 @@ class ContentBiaya extends Component {
 
                 <div className="price-btn">
                   <Link href="https://perizinan.pu.go.id/portal/registrasi/SKK">
-                    <a className="price-btn-one">Permohonan Sertifikasi</a>
+                    <a className="price-btn-one">AJUKAN SKK</a>
                   </Link>
                 </div>
               </div>
@@ -103,7 +103,7 @@ class ContentBiaya extends Component {
 
                 <div className="price-btn">
                   <Link href="https://perizinan.pu.go.id/portal/registrasi/SKK">
-                    <a className="price-btn-one">Permohonan Sertifikasi</a>
+                    <a className="price-btn-one">AJUKAN SKK</a>
                   </Link>
                 </div>
               </div>
@@ -150,7 +150,7 @@ class ContentBiaya extends Component {
 
                 <div className="price-btn">
                   <Link href="https://perizinan.pu.go.id/portal/registrasi/SKK">
-                    <a className="price-btn-one">Permohonan Sertifikasi</a>
+                    <a className="price-btn-one">AJUKAN SKK</a>
                   </Link>
                 </div>
               </div>
@@ -197,7 +197,7 @@ class ContentBiaya extends Component {
 
                 <div className="price-btn">
                   <Link href="https://perizinan.pu.go.id/portal/registrasi/SKK">
-                    <a className="price-btn-one">Permohonan Sertifikasi</a>
+                    <a className="price-btn-one">AJUKAN SKK</a>
                   </Link>
                 </div>
               </div>
