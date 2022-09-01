@@ -7,81 +7,45 @@ class Customers extends Component {
       <div className="partner-section pt-100 pb-70">
         <div className="container">
           <div className="partner-title">
-            <span>Customer</span>
-            <h2>Discover Customer Successful Stories</h2>
+            <h2>LSP Gatensi Karya Konstruksi terkoneksi dengan</h2>
           </div>
-
-          <div className="partner-list">
-            <div className="partner-item">
-              <Link href="/partner">
-                <a>
-                  <img src="/images/partner/partner1.png" alt="image" />
-                </a>
-              </Link>
+          <div className="row">
+            <div className="col-4 ">
+              <div className="partner-list">
+                <div className="partner-item">
+                  <Link href="https://www.pu.go.id/">
+                    <a>
+                      <img src="/images/logo-pupr.png" alt="image" />
+                    </a>
+                  </Link>
+                </div>
+              </div>
             </div>
-
-            <div className="partner-item">
-              <Link href="/partner">
-                <a>
-                  <img src="/images/partner/partner2.png" alt="image" />
-                </a>
-              </Link>
+            <div className="col-4">
+              <div className="partner-list">
+                <div className="partner-item ">
+                  <Link href="https://www.pu.go.id/">
+                    <a>
+                      <img
+                        className="bnsp"
+                        src="/images/logo-bnsp.png"
+                        alt="image"
+                      />
+                    </a>
+                  </Link>
+                </div>
+              </div>
             </div>
-
-            <div className="partner-item">
-              <Link href="/partner">
-                <a>
-                  <img src="/images/partner/partner3.png" alt="image" />
-                </a>
-              </Link>
-            </div>
-
-            <div className="partner-item">
-              <Link href="/partner">
-                <a>
-                  <img src="/images/partner/partner4.png" alt="image" />
-                </a>
-              </Link>
-            </div>
-
-            <div className="partner-item">
-              <Link href="/partner">
-                <a>
-                  <img src="/images/partner/partner5.png" alt="image" />
-                </a>
-              </Link>
-            </div>
-
-            <div className="partner-item">
-              <Link href="/partner">
-                <a>
-                  <img src="/images/partner/partner5.png" alt="image" />
-                </a>
-              </Link>
-            </div>
-
-            <div className="partner-item">
-              <Link href="/partner">
-                <a>
-                  <img src="/images/partner/partner6.png" alt="image" />
-                </a>
-              </Link>
-            </div>
-
-            <div className="partner-item">
-              <Link href="/partner">
-                <a>
-                  <img src="/images/partner/partner7.png" alt="image" />
-                </a>
-              </Link>
-            </div>
-
-            <div className="partner-item">
-              <Link href="/partner">
-                <a>
-                  <img src="/images/partner/partner8.png" alt="image" />
-                </a>
-              </Link>
+            <div className="col-4">
+              <div className="partner-list">
+                <div className="partner-item">
+                  <Link href="https://www.pu.go.id/">
+                    <a>
+                      <img src="/images/logo-gatensi.png" alt="image" />
+                    </a>
+                  </Link>
+                </div>
+              </div>
             </div>
           </div>
         </div>

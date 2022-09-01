@@ -13,8 +13,8 @@ class PanduanSertifikasi extends Component {
         <PageBanner
           pageTitle="Panduan Sertifikasi"
           breadcrumbTextOne="Home"
-          breadcrumbTextTwo="Panduan"
-          breadcrumbTextThree="Sertifikasi"
+          breadcrumbTextTwo="Sertifikasi"
+          breadcrumbTextThree="Panduan Sertifikasi"
           breadcrumbUrl="/"
           bgImage="banner-bg-img3"
         />

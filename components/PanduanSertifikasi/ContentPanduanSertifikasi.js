@@ -7,17 +7,16 @@ class ContentPanduanSertifikasi extends Component {
       <div className="pricing-area pt-100 pb-70">
         <div className="container">
           <div className="section-title">
-            <span>Biaya</span>
-            <h2>Rincian Biaya Sertifikasi Kompetensi Konstruksi</h2>
+            <span>Panduan Sertifikasi</span>
+            <h2>Alur Permohonan Sertifikasi di LSP Gatensi Karya Konstruksi</h2>
             <p>
-              Rincian biaya telah disesuaikan sesuai dengan Peraturan Menteri
-              yang berlaku
+              Permohonan akan dimulai dari Portal Perizinan PU dan akan
+              terintegrasi dengan sistem LSP serta Badan Nasional Sertifikasi
+              Profesi (BNSP).
             </p>
           </div>
           <div className="row ">
-            
             <img src="/images/panduansertifikasi.png" alt="imagepanduan" />
-            
           </div>
         </div>
       </div>

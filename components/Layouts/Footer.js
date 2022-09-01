@@ -24,7 +24,7 @@ class Footer extends Component {
                     <div className="col-4">
                       <div className="footer-info-contact">
                         <i className="flaticon-call-answer"></i>
-                        <h3>Phone</h3>
+                        <h3>Telepon</h3>
                         <span>021 7810444</span>
                         <br />
                         <span>

@@ -8,6 +8,7 @@ import Testimonial from "../components/Common/Testimonial";
 import TeamMember from "../components/Common/TeamMember";
 import Customers from "../components/Common/Customers";
 import Footer from "../components/Layouts/Footer";
+import Linimasa from "../components/AboutUs/Linimasa";
 
 class TentangKami extends Component {
   render() {
@@ -26,15 +27,17 @@ class TentangKami extends Component {
 
         <TentangKamiContent />
 
-        <FunFacts />
+        <Linimasa />
 
         <div className="pb-100">
           <GetStartedProject />
         </div>
 
+        <FunFacts />
+
         {/* <Testimonial /> */}
 
-        <TeamMember />
+        {/* <TeamMember /> */}
 
         <Customers />
 

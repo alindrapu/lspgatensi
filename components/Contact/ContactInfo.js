@@ -36,7 +36,7 @@ class ContactInfo extends Component {
               <div className="single-contact-box">
                 <i className="fa fa-phone"></i>
                 <div className="content-title">
-                  <h3>Telefon</h3>
+                  <h3>Telepon</h3>
                   <p>021 7810444</p>
                   <p>
                     <a href="https://api.whatsapp.com/send?phone=6281130570777">

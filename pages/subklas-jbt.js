@@ -15,7 +15,7 @@ class ServiceDetails extends Component {
           breadcrumbTextOne="Beranda"
           breadcrumbTextTwo="Subklasifikasi"
           breadcrumbTextThree="Jabatan Kerja"
-          breadcrumbTextFour="Jalan"
+          breadcrumbTextFour="Jembatan"
           breadcrumbUrl="/"
           bgImage="banner-bg-img3"
         />

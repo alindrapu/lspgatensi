@@ -2516,6 +2516,8 @@ Partner Section CSS
   display: -ms-flexbox;
   display: -webkit-box;
   display: flex;
+  align-items: center;
+  justify-content: center;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin-right: -5px;
@@ -2524,9 +2526,17 @@ Partner Section CSS
     -ms-flex: 0 0 20%;
     -webkit-box-flex: 0;
     flex: 0 0 20%;
-    max-width: 20%;
     padding-left: 5px;
     padding-right: 5px;
+    img {
+      height: 100%;
+      width: 150%;
+      max-width: 300px;
+    }
+
+    a img.bnsp {
+      width: 250px;
+    }
     a {
       display: block;
       text-align: center;

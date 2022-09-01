@@ -2257,15 +2257,24 @@ Partner Section CSS
 
 .partner-list {
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
   margin-right: -5px;
   margin-left: -5px;
 }
 .partner-list .partner-item {
   flex: 0 0 20%;
-  max-width: 20%;
   padding-left: 5px;
   padding-right: 5px;
+}
+.partner-list .partner-item img {
+  height: 100%;
+  width: 150%;
+  max-width: 300px;
+}
+.partner-list .partner-item a img.bnsp {
+  width: 250px;
 }
 .partner-list .partner-item a {
   display: block;

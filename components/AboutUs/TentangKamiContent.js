@@ -19,7 +19,7 @@ class TentangKamiContent extends Component {
                 <h2>Sejarah Singkat Tentang LSP Gatensi Karya Konstruksi</h2>
                 <p>
                   LSP Gatensi Karya Konstruksi (GKK) adalah Lembaga Sertifikasi
-                  Profesi yang idbentunk oleh Gabungan Ahli Teknik Nasional
+                  Profesi yang dibentuk oleh Gabungan Ahli Teknik Nasional
                   Indonesia (GATENSI) pada 7 Januari 2021. Tujuan pembentukan
                   LSP GKK adalah untuk ikut berperan serta dalam program
                   pemerintah terkait pembinaan dan pengembangan kompetensi
