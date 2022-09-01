@@ -119,7 +119,7 @@ class Navbar extends Component {
 
                       <ul className="dropdown-menu">
                         <li className="nav-item">
-                          <Link href="/layanan" activeClassName="active">
+                          <Link href="/panduan-sertifikasi" activeClassName="active">
                             <a className="nav-link">Panduan Sertifikasi</a>
                           </Link>
                         </li>
