@@ -560,7 +560,7 @@ Navbar Area CSS
   transform: translateY(-50%);
 }
 .main-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:hover, .main-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:focus, .main-nav .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
-  color: #2c3482;
+  color: #fcd529;
   padding-left: 10px;
 }
 .main-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:hover::before, .main-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:focus::before, .main-nav .navbar .navbar-nav .nav-item .dropdown-menu li a.active::before {
@@ -751,7 +751,7 @@ Navbar Area CSS
   color: #5b5b98;
 }
 .navbar-area.is-sticky .navbar-nav .nav-item a:hover, .navbar-area.is-sticky .navbar-nav .nav-item a:focus, .navbar-area.is-sticky .navbar-nav .nav-item a.active {
-  color: #2c3482;
+  color: #fcd529;
 }
 .navbar-area.is-sticky .main-nav .navbar-brand .white-logo {
   display: none;

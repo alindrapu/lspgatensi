@@ -594,7 +594,7 @@ Navbar Area CSS
               &:hover,
               &:focus,
               &.active {
-                color: $main-color;
+                color: $main-color-yellow;
                 padding-left: 10px;
 
                 &::before {
@@ -855,7 +855,7 @@ Navbar Area CSS
           &:hover,
           &:focus,
           &.active {
-            color: $main-color;
+            color: $main-color-yellow;
           }
         }
       }
