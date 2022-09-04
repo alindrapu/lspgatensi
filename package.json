@@ -1,8 +1,8 @@
 {
   "name": "lspgatensi",
   "version": "1.7.0",
-  "description": "Website LSP Gatensi Karya Konstruks",
-  "main": "index.js",
+  "description": "Website LSP Gatensi Karya Konstruksi",
+  "main": "server.js",
   "scripts": {
     "dev": "node server.js",
     "build": "next build",

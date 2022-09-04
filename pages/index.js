@@ -20,26 +20,6 @@ class Index extends Component {
 
         <TentangKamiContent />
 
-        {/* <AboutUs /> */}
-
-        {/* <FunFacts /> */}
-
-        {/* <WorkingProcess /> */}
-
-        {/* <div className="pb-100">
-          <FeaturedService />
-        </div> */}
-
-        {/* <Testimonial /> */}
-
-        {/* <GetStartedProject /> */}
-
-        {/* <BlogPost /> */}
-
-        {/* <Customers /> */}
-
-        {/* <Subscribe /> */}
-
         <Footer />
       </>
     );
