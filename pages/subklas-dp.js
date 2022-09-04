@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Navbar from "../components/Layouts/Navbar";
 import PageBanner from "../components/Common/PageBanner";
 import Footer from "../components/Layouts/Footer";
-import SubklasContentDp from "../components/Services/SubklasContentDp";
+import SubklasContentDp from "../components/Subklas/SubklasContentDp";
 
 class ServiceDetails extends Component {
   render() {
