@@ -98,11 +98,11 @@ a {
   text-decoration: none;
   transition: 0.6s;
   outline: 0 !important;
-  color: #393953;
+  color: #fcd529;
 }
 a:hover {
   text-decoration: none;
-  color: #00b0ee;
+  color: #fcd529;
 }
 
 h1,
@@ -178,7 +178,7 @@ p:last-child {
   overflow: hidden;
   z-index: 1;
   color: #ffffff;
-  background-color: #00b0ee;
+  background-color: #2c3482;
   transition: 0.6s;
   border-radius: 10px;
   font-weight: 600;
@@ -215,7 +215,7 @@ p:last-child {
   text-align: center;
   overflow: hidden;
   z-index: 1;
-  color: #00b0ee;
+  color: #2c3482;
   background-color: #ffffff;
   transition: 0.6s;
   border-radius: 10px;
@@ -256,7 +256,7 @@ p:last-child {
 .section-title span {
   font-size: 16px;
   font-weight: 400;
-  color: #00b0ee;
+  color: #2c3482;
 }
 .section-title h2 {
   font-size: 40px;
@@ -365,7 +365,11 @@ Preloader Area CSS
   width: 60%;
   height: 100%;
   z-index: -1;
-  background: #00b0ee;
+  background: #2c3482;
+  background-image: url(/images/logo-white.png);
+  background-size: 30%;
+  background-position: center;
+  background-repeat: no-repeat;
   transition: 0.9s;
 }
 .preloader::after {
@@ -500,7 +504,7 @@ Navbar Area CSS
   margin-right: 15px;
 }
 .main-nav .navbar .navbar-nav .nav-item a:hover, .main-nav .navbar .navbar-nav .nav-item a:focus, .main-nav .navbar .navbar-nav .nav-item a.active {
-  color: #00b0ee;
+  color: #fcd529;
 }
 .main-nav .navbar .navbar-nav .nav-item a i {
   font-size: 10px;
@@ -509,7 +513,7 @@ Navbar Area CSS
   margin-left: 1px;
 }
 .main-nav .navbar .navbar-nav .nav-item:hover a, .main-nav .navbar .navbar-nav .nav-item:focus a, .main-nav .navbar .navbar-nav .nav-item.active a {
-  color: #00b0ee;
+  color: #fcd529;
 }
 .main-nav .navbar .navbar-nav .nav-item .dropdown-menu {
   box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
@@ -552,11 +556,11 @@ Navbar Area CSS
   width: 0;
   transition: 0.6s;
   height: 1px;
-  background-color: #00b0ee;
+  background-color: #2c3482;
   transform: translateY(-50%);
 }
 .main-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:hover, .main-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:focus, .main-nav .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
-  color: #00b0ee;
+  color: #2c3482;
   padding-left: 10px;
 }
 .main-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:hover::before, .main-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:focus::before, .main-nav .navbar .navbar-nav .nav-item .dropdown-menu li a.active::before {
@@ -572,7 +576,7 @@ Navbar Area CSS
   color: #696997;
 }
 .main-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:hover, .main-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:focus, .main-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a.active {
-  color: #00b0ee;
+  color: #fcd529;
 }
 .main-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu {
   left: -245px;
@@ -585,7 +589,7 @@ Navbar Area CSS
   text-transform: capitalize;
 }
 .main-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .main-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .main-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #00b0ee;
+  color: #fcd529;
 }
 .main-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
   left: -245px;
@@ -598,7 +602,7 @@ Navbar Area CSS
   text-transform: capitalize;
 }
 .main-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .main-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .main-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #00b0ee;
+  color: #fcd529;
 }
 .main-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
   left: 195px;
@@ -611,7 +615,7 @@ Navbar Area CSS
   text-transform: capitalize;
 }
 .main-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .main-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .main-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #00b0ee;
+  color: #fcd529;
 }
 .main-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
   left: 195px;
@@ -624,7 +628,7 @@ Navbar Area CSS
   text-transform: capitalize;
 }
 .main-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .main-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .main-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #00b0ee;
+  color: #fcd529;
 }
 .main-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
   left: 195px;
@@ -637,10 +641,10 @@ Navbar Area CSS
   text-transform: capitalize;
 }
 .main-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .main-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .main-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #00b0ee;
+  color: #fcd529;
 }
 .main-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-  color: #00b0ee;
+  color: #fcd529;
 }
 .main-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
   opacity: 1;
@@ -649,7 +653,7 @@ Navbar Area CSS
   transition: 0.6s;
 }
 .main-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-  color: #00b0ee;
+  color: #fcd529;
 }
 .main-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
   opacity: 1;
@@ -658,7 +662,7 @@ Navbar Area CSS
   transition: 0.6s;
 }
 .main-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-  color: #00b0ee;
+  color: #fcd529;
 }
 .main-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
   opacity: 1;
@@ -667,7 +671,7 @@ Navbar Area CSS
   transition: 0.6s;
 }
 .main-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-  color: #00b0ee;
+  color: #fcd529;
 }
 .main-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
   opacity: 1;
@@ -676,7 +680,7 @@ Navbar Area CSS
   transition: 0.6s;
 }
 .main-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li.active a {
-  color: #00b0ee;
+  color: #fcd529;
 }
 .main-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
   opacity: 1;
@@ -685,7 +689,7 @@ Navbar Area CSS
   transition: 0.6s;
 }
 .main-nav .navbar .navbar-nav .nav-item .dropdown-menu li.active a {
-  color: #00b0ee;
+  color: #fcd529;
 }
 .main-nav .navbar .navbar-nav .nav-item .dropdown-menu li:hover .dropdown-menu {
   opacity: 1;
@@ -707,11 +711,11 @@ Navbar Area CSS
   padding: 10px 25px;
   font-size: 15px;
   background-color: transparent;
-  border: 1px solid #00b0ee;
-  color: #00b0ee;
+  border: 1px solid #2c3482;
+  color: #2c3482;
 }
 .main-nav .navbar .other-option .default-btn.seo-btn:hover {
-  background-color: #00b0ee;
+  background-color: #2c3482;
   color: #ffffff;
 }
 .main-nav .black-logo {
@@ -747,7 +751,7 @@ Navbar Area CSS
   color: #5b5b98;
 }
 .navbar-area.is-sticky .navbar-nav .nav-item a:hover, .navbar-area.is-sticky .navbar-nav .nav-item a:focus, .navbar-area.is-sticky .navbar-nav .nav-item a.active {
-  color: #00b0ee;
+  color: #2c3482;
 }
 .navbar-area.is-sticky .main-nav .navbar-brand .white-logo {
   display: none;
@@ -768,7 +772,7 @@ Navbar Area CSS
 .navbar-toggler .icon-bar {
   width: 28px;
   transition: all 0.3s;
-  background: #00b0ee;
+  background: #2c3482;
   height: 2px;
   display: block;
 }
@@ -1356,7 +1360,7 @@ About Section CSS
 .about-content span {
   font-size: 16px;
   font-weight: 400;
-  color: #00b0ee;
+  color: #2c3482;
 }
 .about-content h2 {
   font-size: 40px;
@@ -1383,7 +1387,7 @@ About Section CSS
   padding-bottom: 0;
 }
 .about-content .about-list i {
-  color: #00b0ee;
+  color: #2c3482;
   font-weight: 700;
   margin-right: 10px;
 }
@@ -1415,7 +1419,7 @@ Data Services Section CSS
   transition: 0.6s;
 }
 .data-services-item .single-data-service-box .icon i {
-  color: #00b0ee;
+  color: #2c3482;
   position: relative;
   margin-right: 4px;
   top: -6px;
@@ -1456,7 +1460,7 @@ Data Services Section CSS
   width: 100%;
   height: 0;
   border-radius: 5px;
-  background-color: #00b0ee;
+  background-color: #2c3482;
   z-index: -1;
   transition: 0.6s;
 }
@@ -1497,7 +1501,7 @@ Fun Facts Section CSS
   width: 100%;
   left: 0;
   top: 0;
-  background-color: #00b0ee;
+  background-color: #2c3482;
   z-index: -1;
   opacity: 0.8;
 }
@@ -1572,7 +1576,7 @@ Tabs Solutions Section CSS
   font-weight: 700;
 }
 .solutions-list-tab .tabs li.current span, .solutions-list-tab .tabs li:hover span {
-  background-color: #00b0ee;
+  background-color: #2c3482;
   color: #ffffff;
 }
 .solutions-list-tab .tab_content .tabs_item .tab-solution-content h3 {
@@ -1602,7 +1606,7 @@ Tabs Solutions Section CSS
   padding-bottom: 0;
 }
 .solutions-list-tab .tab_content .tabs_item .tab-solution-content .tab-list i {
-  color: #00b0ee;
+  color: #2c3482;
   margin-right: 5px;
   position: absolute;
   left: 0;
@@ -1642,7 +1646,7 @@ Work Section CSS
 }
 .work-item:hover .work-content {
   max-width: 100%;
-  background-color: #00b0ee;
+  background-color: #2c3482;
 }
 .work-item:hover h3 {
   color: #ffffff;
@@ -1676,7 +1680,7 @@ Testimonial Section CSS
   height: 70px;
   width: 70px;
   line-height: 70px;
-  background-color: #00b0ee;
+  background-color: #2c3482;
   border-radius: 100px;
   left: 0;
   right: 0;
@@ -1713,7 +1717,7 @@ Testimonial Section CSS
   margin-bottom: 20px;
 }
 .testimonial-slider .testimonial-single-item .testimonial-content .icon i {
-  color: #00b0ee;
+  color: #2c3482;
 }
 .testimonial-slider .testimonial-single-item .testimonial-content .icon i::before {
   font-size: 35px;
@@ -1746,7 +1750,7 @@ Testimonial Section CSS
   right: 110px;
 }
 .testimonial-slider.owl-theme .owl-nav [class*=owl-]:hover {
-  color: #00b0ee;
+  color: #2c3482;
   background-color: transparent;
 }
 .testimonial-slider.owl-theme .owl-dots {
@@ -1763,10 +1767,10 @@ Testimonial Section CSS
   border-radius: 30px;
 }
 .testimonial-slider.owl-theme .owl-dots .owl-dot:hover span {
-  background-color: #00b0ee;
+  background-color: #2c3482;
 }
 .testimonial-slider.owl-theme .owl-dots .owl-dot.active span {
-  background-color: #00b0ee;
+  background-color: #2c3482;
 }
 .testimonial-slider.owl-theme:hover .owl-nav {
   opacity: 1 !important;
@@ -1823,7 +1827,7 @@ Blog Section CSS
   display: inline-block;
   font-size: 13px;
   margin-right: 15px;
-  color: #00b0ee;
+  color: #2c3482;
 }
 .blog-item .blog-content .meta-tags li:last-child {
   margin-right: 0;
@@ -1835,7 +1839,7 @@ Blog Section CSS
   top: -1px;
 }
 .blog-item .blog-content .meta-tags a {
-  color: #00b0ee;
+  color: #2c3482;
   text-decoration: none;
 }
 .blog-item .blog-content h3 {
@@ -1845,7 +1849,7 @@ Blog Section CSS
   line-height: 32px;
 }
 .blog-item .blog-content h3 a:hover {
-  color: #00b0ee;
+  color: #2c3482;
   text-decoration: none;
 }
 .blog-item .blog-content p {
@@ -1867,10 +1871,10 @@ Blog Section CSS
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
 }
 .blog-item:hover .blog-content h3 {
-  color: #00b0ee;
+  color: #2c3482;
 }
 .blog-item:hover .blog-content .read-more {
-  color: #00b0ee;
+  color: #2c3482;
 }
 
 /*================================================
@@ -1895,7 +1899,7 @@ Sidebar Widget Area CSS
 .widget-area .widget .widget-title::before {
   content: "";
   position: absolute;
-  background: #00b0ee;
+  background: #2c3482;
   bottom: -1px;
   left: 0;
   width: 50px;
@@ -1927,7 +1931,7 @@ Sidebar Widget Area CSS
   transition: 0.6s;
 }
 .widget-area .widget_search form .search-field:focus {
-  border-color: #00b0ee;
+  border-color: #2c3482;
 }
 .widget-area .widget_search form button {
   position: absolute;
@@ -1939,7 +1943,7 @@ Sidebar Widget Area CSS
   z-index: 1;
   border: none;
   color: #ffffff;
-  background-color: #00b0ee;
+  background-color: #2c3482;
   transition: 0.6s;
 }
 .widget-area .widget_search form button:hover {
@@ -2019,7 +2023,7 @@ Sidebar Widget Area CSS
   margin-bottom: 0;
 }
 .widget-area .widget_recent_entries ul li::before {
-  background: #00b0ee;
+  background: #2c3482;
   position: absolute;
   height: 7px;
   width: 7px;
@@ -2032,7 +2036,7 @@ Sidebar Widget Area CSS
   color: #393953;
 }
 .widget-area .widget_recent_entries ul li a:hover {
-  color: #00b0ee;
+  color: #2c3482;
 }
 .widget-area .widget_recent_entries ul li .post-date {
   display: block;
@@ -2058,7 +2062,7 @@ Sidebar Widget Area CSS
   margin-bottom: 0;
 }
 .widget-area .widget_recent_comments ul li::before {
-  background: #00b0ee;
+  background: #2c3482;
   position: absolute;
   height: 7px;
   width: 7px;
@@ -2073,7 +2077,7 @@ Sidebar Widget Area CSS
   margin-left: 5px;
 }
 .widget-area .widget_recent_comments ul li a:hover {
-  color: #00b0ee;
+  color: #2c3482;
 }
 .widget-area .widget_archive ul {
   padding-left: 0;
@@ -2092,7 +2096,7 @@ Sidebar Widget Area CSS
   margin-bottom: 0;
 }
 .widget-area .widget_archive ul li::before {
-  background: #00b0ee;
+  background: #2c3482;
   height: 7px;
   width: 7px;
   content: "";
@@ -2105,7 +2109,7 @@ Sidebar Widget Area CSS
   color: #393953;
 }
 .widget-area .widget_archive ul li a:hover {
-  color: #00b0ee;
+  color: #2c3482;
 }
 .widget-area .widget_categories ul {
   padding-left: 0;
@@ -2124,7 +2128,7 @@ Sidebar Widget Area CSS
   margin-bottom: 0;
 }
 .widget-area .widget_categories ul li::before {
-  background: #00b0ee;
+  background: #2c3482;
   height: 7px;
   width: 7px;
   content: "";
@@ -2137,7 +2141,7 @@ Sidebar Widget Area CSS
   display: block;
 }
 .widget-area .widget_categories ul li a:hover {
-  color: #00b0ee;
+  color: #2c3482;
 }
 .widget-area .widget_categories ul li .post-count {
   float: right;
@@ -2160,7 +2164,7 @@ Sidebar Widget Area CSS
   margin-bottom: 0;
 }
 .widget-area .widget_meta ul li::before {
-  background: #00b0ee;
+  background: #2c3482;
   height: 7px;
   width: 7px;
   content: "";
@@ -2173,7 +2177,7 @@ Sidebar Widget Area CSS
   color: #393953;
 }
 .widget-area .widget_meta ul li a:hover {
-  color: #00b0ee;
+  color: #2c3482;
 }
 .widget-area .widget_tag_cloud .widget-title {
   margin-bottom: 12px;
@@ -2190,8 +2194,8 @@ Sidebar Widget Area CSS
 }
 .widget-area .tagcloud a:hover, .widget-area .tagcloud a:focus {
   color: #ffffff;
-  background-color: #00b0ee;
-  border-color: #00b0ee;
+  background-color: #2c3482;
+  border-color: #2c3482;
 }
 .widget-area .widget_event_details ul {
   padding-left: 0;
@@ -2221,7 +2225,7 @@ Sidebar Widget Area CSS
   color: #888f96;
 }
 .widget-area .widget_event_details ul li a:hover {
-  color: #00b0ee;
+  color: #2c3482;
 }
 
 .left-blog-sidebar .widget-area {
@@ -2234,7 +2238,7 @@ Partner Section CSS
 =================================================*/
 .partner-section {
   position: relative;
-  background-color: #00b0ee;
+  background-color: #2c3482;
   overflow: hidden;
   z-index: 1;
 }
@@ -2366,7 +2370,7 @@ Subscribe Area CSS
   position: absolute;
   right: 0;
   top: 0;
-  background-color: #00b0ee;
+  background-color: #2c3482;
   color: #ffffff;
   border: none;
   height: 50px;
@@ -2411,7 +2415,7 @@ Services Section CSS
   line-height: 50px;
   background-color: #eeeefd;
   border-radius: 50%;
-  color: #00b0ee;
+  color: #2c3482;
   transition: 0.6s;
   margin-bottom: 15px;
 }
@@ -2461,7 +2465,7 @@ Services Section CSS
   z-index: -1;
   width: 100%;
   height: 0%;
-  background: #00b0ee;
+  background: #2c3482;
   border-radius: 0;
   transition: 0.6s;
 }
@@ -2473,7 +2477,7 @@ Services Section CSS
 }
 .single-services-box:hover .icon {
   transform: rotate(360deg);
-  color: #00b0ee;
+  color: #2c3482;
   background-color: #ffffff;
 }
 .single-services-box:hover h3 {
@@ -2486,11 +2490,11 @@ Services Section CSS
   color: #ffffff;
 }
 .single-services-box:hover .service-btn {
-  color: #ffffff;
+  color: #fcd529;
   letter-spacing: 1px;
 }
 .single-services-box:hover .service-btn i {
-  color: #ffffff;
+  color: #fcd529;
 }
 
 /*================================================
@@ -2532,10 +2536,10 @@ Process Section CSS
 }
 .process-item:hover .process-btn {
   letter-spacing: 1px;
-  color: #00b0ee;
+  color: #2c3482;
 }
 .process-item:hover .process-btn i {
-  color: #00b0ee;
+  color: #2c3482;
 }
 
 /*================================================
@@ -2592,7 +2596,7 @@ Software Section CSS
   width: 100%;
   height: 0;
   border-radius: 5px;
-  background-color: #00b0ee;
+  background-color: #2c3482;
   z-index: -1;
   transition: 0.6s;
 }
@@ -2648,7 +2652,7 @@ Software Section CSS
   width: 100%;
   height: 0;
   border-radius: 5px;
-  background-color: #00b0ee;
+  background-color: #2c3482;
   z-index: -1;
   transition: 0.6s;
 }
@@ -2689,7 +2693,7 @@ Productive Section CSS
   overflow: hidden;
   z-index: 1;
   color: #ffffff;
-  background-color: #00b0ee;
+  background-color: #2c3482;
   transition: 0.6s;
   border-radius: 10px;
   font-weight: 600;
@@ -2726,9 +2730,9 @@ Productive Section CSS
   text-align: center;
   overflow: hidden;
   z-index: 1;
-  color: #00b0ee;
+  color: #2c3482;
   background-color: #ffffff;
-  border: 1px solid #00b0ee;
+  border: 1px solid #2c3482;
   transition: 0.6s;
   border-radius: 10px;
   font-weight: 600;
@@ -2746,8 +2750,8 @@ Productive Section CSS
   width: 0;
   height: 0;
   border-radius: 50%;
-  background-color: #00b0ee;
-  border: 1px solid #00b0ee;
+  background-color: #2c3482;
+  border: 1px solid #2c3482;
   transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
   transform: translate(-50%, -50%);
   z-index: -1;
@@ -2783,7 +2787,7 @@ Footer Section CSS
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: #00b0ee;
+  background-color: #2c3482;
   opacity: 0;
   visibility: hidden;
   transition: 0.6s;
@@ -2923,7 +2927,7 @@ Contact Section CSS
   padding: 10px 15px;
 }
 .contact-form form .form-control:focus {
-  border: 1px solid #00b0ee;
+  border: 1px solid #2c3482;
   box-shadow: none;
 }
 .contact-form form textarea.form-control {
@@ -2958,8 +2962,8 @@ Contact Section CSS
 .contact-form .submit-btn {
   display: inline-block;
   width: 100%;
-  background-color: #00b0ee;
-  border: 1px solid #00b0ee;
+  background-color: #2c3482;
+  border: 1px solid #2c3482;
   color: #ffffff;
   padding: 12px 50px;
   font-size: 15px;
@@ -2968,7 +2972,7 @@ Contact Section CSS
 }
 .contact-form .submit-btn:hover {
   background-color: #ffffff;
-  color: #00b0ee;
+  color: #2c3482;
 }
 
 .contact-box .single-contact-box {
@@ -2982,16 +2986,16 @@ Contact Section CSS
   line-height: 50px;
   width: 50px;
   height: 50px;
-  border: 1px dashed #00b0ee;
+  border: 1px dashed #2c3482;
   border-radius: 50%;
   font-size: 20px;
   display: inline-block;
-  color: #00b0ee;
+  color: #2c3482;
   transition: all 0.5s;
   margin-bottom: 20px;
 }
 .contact-box .single-contact-box:hover i {
-  background-color: #00b0ee;
+  background-color: #2c3482;
   color: #ffffff;
 }
 .contact-box .single-contact-box .content-title h3 {
@@ -3004,7 +3008,7 @@ Contact Section CSS
   color: #747171;
 }
 .contact-box .single-contact-box .content-title a:hover {
-  color: #00b0ee;
+  color: #2c3482;
 }
 .contact-box .single-contact-box .content-title p {
   margin: 0;
@@ -3100,7 +3104,7 @@ Page Title Area CSS
   transition: 0.6s;
 }
 .page-title-content ul li a:hover {
-  color: #00b0ee;
+  color: #2c3482;
 }
 .page-title-content ul li::before {
   content: "";
@@ -3110,7 +3114,7 @@ Page Title Area CSS
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background-color: #00b0ee;
+  background-color: #2c3482;
 }
 .page-title-content ul li:last-child::before {
   display: none;
@@ -3163,19 +3167,19 @@ Team Section CSS
 }
 .single-team-item .team-image .team-social a {
   display: inline-block;
-  color: #00b0ee;
+  color: #2c3482;
   font-size: 15px;
   margin: 0 6px;
   height: 40px;
   width: 40px;
   line-height: 40px;
-  background-color: #00b0ee;
+  background-color: #2c3482;
   color: #ffffff;
   border-radius: 35px;
 }
 .single-team-item .team-image .team-social a:hover {
   background-color: #ffffff;
-  color: #00b0ee;
+  color: #2c3482;
 }
 .single-team-item .team-content {
   padding: 25px;
@@ -3191,7 +3195,7 @@ Team Section CSS
 .single-team-item .team-content span {
   display: block;
   margin-top: 8px;
-  color: #00b0ee;
+  color: #2c3482;
   transition: 0.6s;
   font-weight: 500;
 }
@@ -3207,7 +3211,7 @@ Team Section CSS
   visibility: visible;
 }
 .single-team-item:hover .team-content {
-  background-color: #00b0ee;
+  background-color: #2c3482;
 }
 .single-team-item:hover .team-content h3 {
   color: #ffffff;
@@ -3271,7 +3275,7 @@ Services Details CSS
   width: 40px;
   text-align: center;
   height: 100%;
-  background: #00b0ee;
+  background: #2c3482;
   color: #ffffff;
 }
 .services-details-overview .services-details-desc .services-details-accordion .accordion .accordion-title i::before {
@@ -3320,7 +3324,7 @@ Services Details CSS
   right: 0;
 }
 .image-sliders.owl-theme .owl-nav [class*=owl-]:hover {
-  color: #00b0ee;
+  color: #2c3482;
   background-color: transparent;
 }
 .image-sliders.owl-theme:hover .owl-nav {
@@ -3354,7 +3358,7 @@ Projects Details Area CSS
 .projects-details-desc .features-text h4 i {
   font-size: 16px;
   margin-right: 4px;
-  color: #00b0ee;
+  color: #2c3482;
 }
 .projects-details-desc .project-details-info {
   display: flex;
@@ -3393,7 +3397,7 @@ Projects Details Area CSS
   display: inline-block;
 }
 .projects-details-desc .project-details-info .single-info-box .social li a:hover {
-  color: #00b0ee;
+  color: #2c3482;
   transform: translateY(-5px);
 }
 .projects-details-desc .project-details-info .single-info-box .default-btn {
@@ -3401,8 +3405,8 @@ Projects Details Area CSS
   padding: 12px 30px;
   color: #ffffff;
   text-transform: capitalize;
-  background-color: #00b0ee;
-  border: 1px solid #00b0ee;
+  background-color: #2c3482;
+  border: 1px solid #2c3482;
   transition: 0.5s;
   border-radius: 30px;
   font-size: 14px;
@@ -3410,7 +3414,7 @@ Projects Details Area CSS
 }
 .projects-details-desc .project-details-info .single-info-box .default-btn:hover {
   background-color: #ffffff;
-  color: #00b0ee;
+  color: #2c3482;
 }
 
 /*================================================
@@ -3425,7 +3429,7 @@ Pricing Area CSS
   margin-bottom: 30px;
 }
 .single-pricing-box .pricing-header {
-  background: #00b0ee;
+  background: #2c3482;
   padding: 20px;
   text-align: center;
   border-radius: 5px;
@@ -3471,7 +3475,7 @@ Pricing Area CSS
   margin-bottom: 0;
 }
 .single-pricing-box .pricing-features li i {
-  color: #00b0ee;
+  color: #2c3482;
   font-size: 12px;
   position: absolute;
   right: 0;
@@ -3499,7 +3503,7 @@ Pricing Area CSS
   margin-bottom: 0;
 }
 .single-pricing-box .biaya li i {
-  color: #00b0ee;
+  color: #2c3482;
   font-size: 12px;
   position: absolute;
   right: 0;
@@ -3517,15 +3521,15 @@ Pricing Area CSS
   padding: 12px 30px;
   font-size: 14px;
   display: inline-block;
-  background-color: #00b0ee;
+  background-color: #2c3482;
   color: #ffffff;
   border-radius: 15px;
-  border: 1px solid #00b0ee;
+  border: 1px solid #2c3482;
   transition: 0.6s;
 }
 .single-pricing-box:hover .price-btn .price-btn-one {
   background-color: transparent;
-  color: #00b0ee;
+  color: #2c3482;
 }
 
 /*================================================
@@ -3548,7 +3552,7 @@ Pagination Area CSS
   font-weight: 700;
 }
 .pagination-area .page-numbers.current, .pagination-area .page-numbers:hover, .pagination-area .page-numbers:focus {
-  background: #00b0ee;
+  background: #2c3482;
   color: #ffffff;
   box-shadow: 0 2px 10px 0 #d8dde6;
 }
@@ -3578,8 +3582,8 @@ Pagination Area CSS
 .error-content .default-btn-one {
   display: inline-block;
   padding: 12px 30px;
-  background: #00b0ee;
-  border: 1px solid #00b0ee;
+  background: #2c3482;
+  border: 1px solid #2c3482;
   color: #ffffff;
   font-size: 16px;
   font-weight: 400;
@@ -3589,7 +3593,7 @@ Pagination Area CSS
 .error-content .default-btn-one:hover {
   text-decoration: none;
   background-color: #ffffff;
-  color: #00b0ee;
+  color: #2c3482;
 }
 
 /*================================================
@@ -3640,8 +3644,8 @@ Coming Soon Area CSS
   width: 35px;
   height: 35px;
   line-height: 35px;
-  background: #00b0ee;
-  border: 1px solid #00b0ee;
+  background: #2c3482;
+  border: 1px solid #2c3482;
   color: #ffffff;
   border-radius: 50%;
   margin: 0 3px;
@@ -3649,7 +3653,7 @@ Coming Soon Area CSS
 }
 .coming-soon-area .social-list li a:hover {
   background-color: transparent;
-  color: #00b0ee;
+  color: #2c3482;
   transition: 0.6s;
   -webkit-transition: 0.5s;
 }
@@ -3692,7 +3696,7 @@ Coming Soon Area CSS
   right: 3px;
   top: 3px;
   height: 50px;
-  background: #00b0ee;
+  background: #2c3482;
   color: #ffffff;
   border: none;
   border-radius: 40px;
@@ -3704,7 +3708,7 @@ Coming Soon Area CSS
   font-weight: 600;
 }
 .coming-soon-content form .submit-btn:hover, .coming-soon-content form .submit-btn:focus {
-  background-color: #00b0ee;
+  background-color: #2c3482;
 }
 .coming-soon-content #timer div {
   background: #ffffff;
@@ -3712,7 +3716,7 @@ Coming Soon Area CSS
   border-radius: 50%;
   width: 120px;
   height: 120px;
-  color: #00b0ee;
+  color: #2c3482;
   box-shadow: 0px 0px 0px 5px rgba(255, 255, 255, 0.5);
   margin: 0 10px;
   padding-top: 18px;
@@ -3782,7 +3786,7 @@ Faq Section CSS
   font-size: 15px;
 }
 .faq-contact-form .contact-form form .form-control:focus {
-  border: 1px solid #00b0ee;
+  border: 1px solid #2c3482;
   box-shadow: none;
 }
 .faq-contact-form .contact-form form textarea.form-control {
@@ -3817,8 +3821,8 @@ Faq Section CSS
 .faq-contact-form .contact-form .submit-btn {
   display: inline-block;
   width: 100%;
-  background-color: #00b0ee;
-  border: 1px solid #00b0ee;
+  background-color: #2c3482;
+  border: 1px solid #2c3482;
   color: #ffffff;
   padding: 15px 50px;
   font-size: 15px;
@@ -3827,7 +3831,7 @@ Faq Section CSS
 }
 .faq-contact-form .contact-form .submit-btn:hover {
   background-color: #ffffff;
-  color: #00b0ee;
+  color: #2c3482;
 }
 
 /*================================================
@@ -3860,10 +3864,10 @@ Blog Details Area CSS
   color: #737b9a;
 }
 .blog-details-desc .article-content .entry-meta ul li a:hover {
-  color: #00b0ee;
+  color: #2c3482;
 }
 .blog-details-desc .article-content .entry-meta ul li i {
-  color: #00b0ee;
+  color: #2c3482;
   margin-right: 2px;
 }
 .blog-details-desc .article-content .entry-meta ul li::before {
@@ -3873,7 +3877,7 @@ Blog Details Area CSS
   right: -15px;
   width: 6px;
   height: 1px;
-  background: #00b0ee;
+  background: #2c3482;
 }
 .blog-details-desc .article-content .entry-meta ul li:last-child {
   margin-right: 0;
@@ -3924,7 +3928,7 @@ Blog Details Area CSS
   text-align: center;
   border-radius: 40px;
   background-color: #faf5f5;
-  color: #00b0ee;
+  color: #2c3482;
   transition: 0.6s;
   display: inline-block;
   font-size: 11px;
@@ -3933,7 +3937,7 @@ Blog Details Area CSS
   top: -2px;
 }
 .blog-details-desc .article-content .features-list li:hover i {
-  background-color: #00b0ee;
+  background-color: #2c3482;
   color: #ffffff;
 }
 .blog-details-desc .article-content .features-list li:last-child {
@@ -3973,7 +3977,7 @@ Blog Details Area CSS
   display: none;
 }
 .blog-details-desc .article-footer .article-tags a:hover {
-  color: #00b0ee;
+  color: #2c3482;
 }
 .blog-details-desc .article-footer .article-share {
   flex: 0 0 50%;
@@ -3996,7 +4000,7 @@ Blog Details Area CSS
 }
 .blog-details-desc .article-footer .article-share .social li a {
   display: block;
-  color: #00b0ee;
+  color: #2c3482;
   width: 30px;
   height: 30px;
   line-height: 30px;
@@ -4008,7 +4012,7 @@ Blog Details Area CSS
 }
 .blog-details-desc .article-footer .article-share .social li a:hover {
   color: #ffffff;
-  background-color: #00b0ee;
+  background-color: #2c3482;
   transform: translateY(-2px);
 }
 
@@ -4056,7 +4060,7 @@ blockquote::after,
   top: 0;
   bottom: 0;
   width: 3px;
-  background-color: #00b0ee;
+  background-color: #2c3482;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -4109,8 +4113,8 @@ blockquote::after,
 }
 .comments-area .comment-body .reply a:hover {
   color: #ffffff;
-  background-color: #00b0ee;
-  border-color: #00b0ee;
+  background-color: #2c3482;
+  border-color: #2c3482;
 }
 .comments-area .comment-author {
   font-size: 17px;
@@ -4144,7 +4148,7 @@ blockquote::after,
   color: #737b9a;
 }
 .comments-area .comment-metadata a:hover {
-  color: #00b0ee;
+  color: #2c3482;
 }
 .comments-area .comment-respond {
   margin-top: 30px;
@@ -4210,7 +4214,7 @@ blockquote::after,
 .comments-area .comment-respond input[type=tel]:focus,
 .comments-area .comment-respond input[type=number]:focus,
 .comments-area .comment-respond textarea:focus {
-  border-color: #00b0ee;
+  border-color: #2c3482;
 }
 .comments-area .comment-respond .comment-form-author {
   float: left;
@@ -4254,7 +4258,7 @@ blockquote::after,
   width: 100%;
 }
 .comments-area .comment-respond .form-submit input {
-  background: #00b0ee;
+  background: #2c3482;
   border: none;
   color: #ffffff;
   padding: 10px 30px;
@@ -4332,7 +4336,7 @@ Footer Section CSS
   background-color: #ffffff;
   border: 1px solid #ffffff;
   border-radius: 50px;
-  color: #00b0ee;
+  color: #2c3482;
   transition: 0.6s;
   text-align: center;
 }
@@ -4340,9 +4344,9 @@ Footer Section CSS
   font-size: 14px;
 }
 .single-footer-widget .footer-social i:hover {
-  background-color: #00b0ee;
+  background-color: #2c3482;
   color: #ffffff;
-  border: 1px solid #00b0ee;
+  border: 1px solid #2c3482;
 }
 .single-footer-widget p {
   font-size: 14px;
@@ -4376,7 +4380,7 @@ Footer Section CSS
   font-weight: 400;
 }
 .single-footer-widget .footer-quick-links li a:hover {
-  color: #00b0ee;
+  color: #2c3482;
   transition: 0.6s;
   letter-spacing: 1px;
 }
@@ -4415,7 +4419,7 @@ Footer Section CSS
   transition: 0.6s;
 }
 .single-footer-widget .footer-info-contact span a:hover {
-  color: #00b0ee;
+  color: #fcd529;
   letter-spacing: 1px;
 }
 
@@ -4438,7 +4442,7 @@ Copyright Section CSS
   margin: 0 5px;
 }
 .copyright-area p a:hover {
-  color: #00b0ee;
+  color: #2c3482;
 }
 .copyright-area ul {
   padding-left: 0;
@@ -4459,7 +4463,7 @@ Copyright Section CSS
   color: #d9d3d3;
 }
 .copyright-area ul li a:hover {
-  color: #00b0ee;
+  color: #2c3482;
 }
 .copyright-area ul li::before {
   content: "";
@@ -4489,7 +4493,7 @@ Go Top CSS
   bottom: 15px;
   right: 15px;
   color: #ffffff;
-  background-color: #00b0ee;
+  background-color: #2c3482;
   z-index: 50;
   width: 40px;
   text-align: center;

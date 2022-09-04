@@ -58,7 +58,10 @@ $font-barmby: "Barmby", sans-serif;
 $font-oswald: "Oswald", sans-serif;
 $font-family: "Open Sans", sans-serif;
 $heading-font: "Dosis", sans-serif;
-$main-color: #00b0ee;
+// $main-color: #00b0ee;
+$main-color: #2c3482;
+$main-color-red: #e4222a;
+$main-color-yellow: #fcd529;
 $optional-color: #3e57d0;
 $white-color: #ffffff;
 $black-color: #393953;
@@ -110,10 +113,10 @@ a {
   text-decoration: none;
   transition: $transition;
   outline: 0 !important;
-  color: $black-color;
+  color: $main-color-yellow;
   &:hover {
     text-decoration: none;
-    color: $main-color;
+    color: $main-color-yellow;
   }
 }
 h1,
@@ -410,6 +413,11 @@ Preloader Area CSS
     height: 100%;
     z-index: -1;
     background: $main-color;
+    background-image: url(/images/logo-white.png);
+    background-size: 30%;
+    background-position: center;
+    background-repeat: no-repeat;
+
     transition: 0.9s;
   }
   &::after {
@@ -521,7 +529,7 @@ Navbar Area CSS
           &:hover,
           &:focus,
           &.active {
-            color: $main-color;
+            color: $main-color-yellow;
           }
           i {
             font-size: 10px;
@@ -534,7 +542,7 @@ Navbar Area CSS
         &:focus,
         &.active {
           a {
-            color: $main-color;
+            color: $main-color-yellow;
           }
         }
         .dropdown-menu {
@@ -605,7 +613,7 @@ Navbar Area CSS
                   &:hover,
                   &:focus,
                   &.active {
-                    color: $main-color;
+                    color: $main-color-yellow;
                   }
                 }
                 .dropdown-menu {
@@ -621,7 +629,7 @@ Navbar Area CSS
                       &:hover,
                       &:focus,
                       &.active {
-                        color: $main-color;
+                        color: $main-color-yellow;
                       }
                     }
                     .dropdown-menu {
@@ -636,7 +644,7 @@ Navbar Area CSS
                           &:hover,
                           &:focus,
                           &.active {
-                            color: $main-color;
+                            color: $main-color-yellow;
                           }
                         }
                         .dropdown-menu {
@@ -651,7 +659,7 @@ Navbar Area CSS
                               &:hover,
                               &:focus,
                               &.active {
-                                color: $main-color;
+                                color: $main-color-yellow;
                               }
                             }
                             .dropdown-menu {
@@ -667,7 +675,7 @@ Navbar Area CSS
                                   &:hover,
                                   &:focus,
                                   &.active {
-                                    color: $main-color;
+                                    color: $main-color-yellow;
                                   }
                                 }
                                 .dropdown-menu {
@@ -682,14 +690,14 @@ Navbar Area CSS
                                       &:hover,
                                       &:focus,
                                       &.active {
-                                        color: $main-color;
+                                        color: $main-color-yellow;
                                       }
                                     }
                                   }
                                 }
                                 &.active {
                                   a {
-                                    color: $main-color;
+                                    color: $main-color-yellow;
                                   }
                                 }
                                 &:hover {
@@ -704,7 +712,7 @@ Navbar Area CSS
                             }
                             &.active {
                               a {
-                                color: $main-color;
+                                color: $main-color-yellow;
                               }
                             }
                             &:hover {
@@ -719,7 +727,7 @@ Navbar Area CSS
                         }
                         &.active {
                           a {
-                            color: $main-color;
+                            color: $main-color-yellow;
                           }
                         }
                         &:hover {
@@ -734,7 +742,7 @@ Navbar Area CSS
                     }
                     &.active {
                       a {
-                        color: $main-color;
+                        color: $main-color-yellow;
                       }
                     }
                     &:hover {
@@ -749,7 +757,7 @@ Navbar Area CSS
                 }
                 &.active {
                   a {
-                    color: $main-color;
+                    color: $main-color-yellow;
                   }
                 }
                 &:hover {
@@ -764,7 +772,7 @@ Navbar Area CSS
             }
             &.active {
               a {
-                color: $main-color;
+                color: $main-color-yellow;
               }
             }
             &:hover {
@@ -2755,10 +2763,10 @@ Services Section CSS
       color: $white-color;
     }
     .service-btn {
-      color: $white-color;
+      color: $main-color-yellow;
       letter-spacing: 1px;
       i {
-        color: $white-color;
+        color: $main-color-yellow;
       }
     }
   }
@@ -4852,7 +4860,7 @@ Footer Section CSS
         font-weight: 400;
         transition: $transition;
         &:hover {
-          color: $main-color;
+          color: $main-color-yellow;
           letter-spacing: 1px;
         }
       }
