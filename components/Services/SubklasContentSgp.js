@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import Link from "next/link";
 class SubklasContentSgp extends Component {
   render() {
     return (
@@ -23,6 +23,31 @@ class SubklasContentSgp extends Component {
                     <span>Pelaksana Pekerjaan Pemeliharaan Sungai</span>
                   </li>
                 </ul>
+
+                <div className="row  mt-5">
+                  <div className="col-lg-6 text-center">
+                      <Link href="/subklasifikasi">
+                        <a className="default-btn-subklas">
+                          Kembali
+                          <span></span>
+                        </a>
+                      </Link>
+                  </div>
+
+                  <div className="col-lg-6 text-center">
+                    <Link href="https://perizinan.pu.go.id/portal/registrasi/SKK">
+                      <a
+                        className="skk-button"
+                        href="https://perizinan.pu.go.id/portal/registrasi/SKK"
+                      >
+                        AJUKAN SKK
+                        <span></span>
+                      </a>
+                    </Link>
+                  </div>
+                </div>
+
+
               </div>
             </div>
 

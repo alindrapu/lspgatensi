@@ -21,7 +21,7 @@ class MainBanner extends Component {
                     </p>
 
                     <div className="banner-btn">
-                      <Link href="/about-us">
+                      <Link href="/panduan-sertifikasi">
                         <a className="default-btn-one">
                           Panduan Sertifikasi
                           <span></span>

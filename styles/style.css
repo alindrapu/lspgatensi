@@ -248,6 +248,47 @@ p:last-child {
   height: 562.5px;
 }
 
+.default-btn-subklas {
+  border: none;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  overflow: hidden;
+  z-index: 1;
+  color: #ffffff;
+  background-color: #00b0ee;
+  transition: 0.6s;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-top: 5px;
+  margin-right: 25px;
+}
+.default-btn-subklas span {
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  color: #00b0ee;
+  background-color: #ffffff;
+  transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  border-radius: 5px;
+}
+.default-btn-subklas:hover, .default-btn-subklas:focus {
+  color: #00b0ee;
+}
+.default-btn-subklas:hover span, .default-btn-subklas:focus span {
+  width: 225%;
+  height: 562.5px;
+}
+
 .section-title {
   text-align: center;
   margin-bottom: 50px;

@@ -17,265 +17,247 @@ class DaftarSubklas extends Component {
           </div>
 
           <div className="row">
-            <div className="col-lg-3 col-md-6">
-              <div className="single-services-box">
-                <div className="icon">
-                  <i className="flaticon-big-data"></i>
-                </div>
-
-                <h3>Gedung</h3>
-
-                <Link href="/subklas-bg">
+            <Link href="/subklas-bg">
+              <div className="col-lg-3 col-md-6">
+                <div className="single-services-box">
+                  <div className="icon">
+                    <i className="flaticon-big-data"></i>
+                  </div>
+                  <h3>Gedung</h3>
                   <a className="service-btn">
                     Jabatan Kerja
                     <i className="flaticon-right"></i>
                   </a>
-                </Link>
-              </div>
-            </div>
-
-            <div className="col-lg-3 col-md-6">
-              <div className="single-services-box">
-                <div className="icon">
-                  <i className="flaticon-data-analytics"></i>
                 </div>
+              </div>
+            </Link>
 
-                <h3>Material</h3>
-
-                <Link href="/subklas-mtr">
+            <Link href="/subklas-mtr">
+              <div className="col-lg-3 col-md-6">
+                <div className="single-services-box">
+                  <div className="icon">
+                    <i className="flaticon-data-analytics"></i>
+                  </div>
+                  <h3>Material</h3>
                   <a className="service-btn">
                     Jabatan Kerja
                     <i className="flaticon-right"></i>
                   </a>
-                </Link>
-              </div>
-            </div>
-
-            <div className="col-lg-3 col-md-6">
-              <div className="single-services-box">
-                <div className="icon">
-                  <i className="flaticon-document"></i>
                 </div>
-                <h3>Jalan</h3>
+              </div>
+            </Link>
 
-                <Link href="/subklas-jln">
+            <Link href="/subklas-jln">
+              <div className="col-lg-3 col-md-6">
+                <div className="single-services-box">
+                  <div className="icon">
+                    <i className="flaticon-document"></i>
+                  </div>
+                  <h3>Jalan</h3>
                   <a className="service-btn">
                     Jabatan Kerja
                     <i className="flaticon-right"></i>
                   </a>
-                </Link>
-              </div>
-            </div>
-
-            <div className="col-lg-3 col-md-6">
-              <div className="single-services-box">
-                <div className="icon">
-                  <i className="flaticon-chart"></i>
                 </div>
-                <h3>Jembatan</h3>
+              </div>
+            </Link>
 
-                <Link href="/subklas-jbt">
+            <Link href="/subklas-jbt">
+              <div className="col-lg-3 col-md-6">
+                <div className="single-services-box">
+                  <div className="icon">
+                    <i className="flaticon-chart"></i>
+                  </div>
+                  <h3>Jembatan</h3>
                   <a className="service-btn">
                     Jabatan Kerja
                     <i className="flaticon-right"></i>
                   </a>
-                </Link>
-              </div>
-            </div>
-
-            <div className="col-lg-3 col-md-6">
-              <div className="single-services-box">
-                <div className="icon">
-                  <i className="flaticon-science"></i>
                 </div>
-                <h3>Bendung dan Bendungan</h3>
+              </div>
+            </Link>
 
-                <Link href="/subklas-bdg">
+            <Link href="/subklas-bdg">
+              <div className="col-lg-3 col-md-6">
+                <div className="single-services-box">
+                  <div className="icon">
+                    <i className="flaticon-science"></i>
+                  </div>
+                  <h3>Bendung dan Bendungan</h3>
                   <a className="service-btn">
                     Jabatan Kerja
                     <i className="flaticon-right"></i>
                   </a>
-                </Link>
-              </div>
-            </div>
-
-            <div className="col-lg-3 col-md-6">
-              <div className="single-services-box">
-                <div className="icon">
-                  <i className="flaticon-data-management"></i>
                 </div>
-                <h3>Irigasi dan Rawa</h3>
+              </div>
+            </Link>
 
-                <Link href="/subklas-irg">
+            <Link href="/subklas-irg">
+              <div className="col-lg-3 col-md-6">
+                <div className="single-services-box">
+                  <div className="icon">
+                    <i className="flaticon-data-management"></i>
+                  </div>
+                  <h3>Irigasi dan Rawa</h3>
                   <a className="service-btn">
                     Jabatan Kerja
                     <i className="flaticon-right"></i>
                   </a>
-                </Link>
-              </div>
-            </div>
-
-            <div className="col-lg-3 col-md-6">
-              <div className="single-services-box">
-                <div className="icon">
-                  <i className="flaticon-data-management"></i>
                 </div>
-                <h3>Sungai dan Pantai</h3>
+              </div>
+            </Link>
 
-                <Link href="/subklas-sgp">
+            <Link href="/subklas-sgp">
+              <div className="col-lg-3 col-md-6">
+                <div className="single-services-box">
+                  <div className="icon">
+                    <i className="flaticon-data-management"></i>
+                  </div>
+                  <h3>Sungai dan Pantai</h3>
                   <a className="service-btn">
                     Jabatan Kerja
                     <i className="flaticon-right"></i>
                   </a>
-                </Link>
-              </div>
-            </div>
-
-            <div className="col-lg-3 col-md-6">
-              <div className="single-services-box">
-                <div className="icon">
-                  <i className="flaticon-data-management"></i>
                 </div>
-                <h3>Air Tanah dan Air Baku</h3>
+              </div>
+            </Link>
 
-                <Link href="/subklas-abk">
+            <Link href="/subklas-abk">
+              <div className="col-lg-3 col-md-6">
+                <div className="single-services-box">
+                  <div className="icon">
+                    <i className="flaticon-data-management"></i>
+                  </div>
+                  <h3>Air Tanah dan Air Baku</h3>
                   <a className="service-btn">
                     Jabatan Kerja
                     <i className="flaticon-right"></i>
                   </a>
-                </Link>
-              </div>
-            </div>
-
-            <div className="col-lg-3 col-md-6">
-              <div className="single-services-box">
-                <div className="icon">
-                  <i className="flaticon-big-data"></i>
                 </div>
+              </div>
+            </Link>
 
-                <h3>Bangunan Air Minum</h3>
-
-                <Link href="/subklas-bm">
+            <Link href="/subklas-bm">
+              <div className="col-lg-3 col-md-6">
+                <div className="single-services-box">
+                  <div className="icon">
+                    <i className="flaticon-big-data"></i>
+                  </div>
+                  <h3>Bangunan Air Minum</h3>
                   <a className="service-btn">
                     Jabatan Kerja
                     <i className="flaticon-right"></i>
                   </a>
-                </Link>
-              </div>
-            </div>
-
-            <div className="col-lg-3 col-md-6">
-              <div className="single-services-box">
-                <div className="icon">
-                  <i className="flaticon-data-analytics"></i>
                 </div>
+              </div>
+            </Link>
 
-                <h3>Drainase Perkotaan</h3>
-
-                <Link href="/subklas-dp">
+            <Link href="/subklas-dp">
+              <div className="col-lg-3 col-md-6">
+                <div className="single-services-box">
+                  <div className="icon">
+                    <i className="flaticon-data-analytics"></i>
+                  </div>
+                  <h3>Drainase Perkotaan</h3>
                   <a className="service-btn">
                     Jabatan Kerja
                     <i className="flaticon-right"></i>
                   </a>
-                </Link>
-              </div>
-            </div>
-
-            <div className="col-lg-3 col-md-6">
-              <div className="single-services-box">
-                <div className="icon">
-                  <i className="flaticon-document"></i>
                 </div>
-                <h3>Bangunan Persampahan</h3>
+              </div>
+            </Link>
 
-                <Link href="/subklas-bp">
+            <Link href="/subklas-bp">
+              <div className="col-lg-3 col-md-6">
+                <div className="single-services-box">
+                  <div className="icon">
+                    <i className="flaticon-document"></i>
+                  </div>
+                  <h3>Bangunan Persampahan</h3>
                   <a className="service-btn">
                     Jabatan Kerja
                     <i className="flaticon-right"></i>
                   </a>
-                </Link>
-              </div>
-            </div>
-
-            <div className="col-lg-3 col-md-6">
-              <div className="single-services-box">
-                <div className="icon">
-                  <i className="flaticon-chart"></i>
                 </div>
-                <h3>Bangunan Air Limbah</h3>
+              </div>
+            </Link>
 
-                <Link href="/subklas-bl">
+            <Link href="/subklas-bl">
+              <div className="col-lg-3 col-md-6">
+                <div className="single-services-box">
+                  <div className="icon">
+                    <i className="flaticon-chart"></i>
+                  </div>
+                  <h3>Bangunan Air Limbah</h3>
                   <a className="service-btn">
                     Jabatan Kerja
                     <i className="flaticon-right"></i>
                   </a>
-                </Link>
-              </div>
-            </div>
-
-            <div className="col-lg-3 col-md-6">
-              <div className="single-services-box">
-                <div className="icon">
-                  <i className="flaticon-science"></i>
                 </div>
-                <h3>Geoteknik dan Pondasi</h3>
+              </div>
+            </Link>
 
-                <Link href="/subklas-gp">
+            <Link href="/subklas-gp">
+              <div className="col-lg-3 col-md-6">
+                <div className="single-services-box">
+                  <div className="icon">
+                    <i className="flaticon-science"></i>
+                  </div>
+                  <h3>Geoteknik dan Pondasi</h3>
                   <a className="service-btn">
                     Jabatan Kerja
                     <i className="flaticon-right"></i>
                   </a>
-                </Link>
-              </div>
-            </div>
-
-            <div className="col-lg-3 col-md-6">
-              <div className="single-services-box">
-                <div className="icon">
-                  <i className="flaticon-data-management"></i>
                 </div>
-                <h3>Jalan Rel</h3>
+              </div>
+            </Link>
 
-                <Link href="/subklas-jlr">
+            <Link href="/subklas-jlr">
+              <div className="col-lg-3 col-md-6">
+                <div className="single-services-box">
+                  <div className="icon">
+                    <i className="flaticon-data-management"></i>
+                  </div>
+                  <h3>Jalan Rel</h3>
                   <a className="service-btn">
                     Jabatan Kerja
                     <i className="flaticon-right"></i>
                   </a>
-                </Link>
-              </div>
-            </div>
-
-            <div className="col-lg-3 col-md-6">
-              <div className="single-services-box">
-                <div className="icon">
-                  <i className="flaticon-data-management"></i>
                 </div>
-                <h3>Geodesi</h3>
+              </div>
+            </Link>
 
-                <Link href="/subklas-gds">
+            <Link href="/subklas-gds">
+              <div className="col-lg-3 col-md-6">
+                <div className="single-services-box">
+                  <div className="icon">
+                    <i className="flaticon-data-management"></i>
+                  </div>
+                  <h3>Geodesi</h3>
                   <a className="service-btn">
                     Jabatan Kerja
                     <i className="flaticon-right"></i>
                   </a>
-                </Link>
-              </div>
-            </div>
-
-            <div className="col-lg-3 col-md-6">
-              <div className="single-services-box">
-                <div className="icon">
-                  <i className="flaticon-data-management"></i>
                 </div>
-                <h3>Grouting</h3>
+              </div>
+            </Link>
 
-                <Link href="/subklas-grt">
+            <Link href="/subklas-grt">
+              <div className="col-lg-3 col-md-6">
+                <div className="single-services-box">
+                  <div className="icon">
+                    <i className="flaticon-data-management"></i>
+                  </div>
+                  <h3>Grouting</h3>
                   <a className="service-btn">
                     Jabatan Kerja
                     <i className="flaticon-right"></i>
                   </a>
-                </Link>
+                </div>
               </div>
-            </div>
+            </Link>
+
+            
           </div>
         </div>
       </section>
