@@ -8,8 +8,8 @@ class SubklasContentGrt extends Component {
           <div className="row align-items-center">
             <div className="col-lg-6">
               <div className="software-content">
-                <h2>Jabatan Kerja Subklasifikasi Grouting</h2>
-
+                <h2 className="text-center">Jabatan Kerja Subklasifikasi Grouting</h2>
+                <div className="text-center"><span>Klik jabatan kerja untuk informasi lebih lanjut</span></div>
                 <ul className="features-list">
                   <li>
                     <span>Teknisi Grouting Senior</span>
