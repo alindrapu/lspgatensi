@@ -149,7 +149,7 @@ class Navbar extends Component {
                           className="nav-link"
                           onClick={(e) => e.preventDefault()}
                         >
-                          Layanan<i className="fas fa-chevron-down"></i>
+                          Layanan <i className="fas fa-chevron-down"></i>
                         </a>
                       </Link>
                       <ul className="dropdown-menu">
@@ -177,7 +177,7 @@ class Navbar extends Component {
                           className="nav-link"
                           onClick={(e) => e.preventDefault()}
                         >
-                          Profil<i className="fas fa-chevron-down"></i>
+                          Profil <i className="fas fa-chevron-down"></i>
                         </a>
                       </Link>
                       <ul className="dropdown-menu">
@@ -204,7 +204,7 @@ class Navbar extends Component {
                           className="nav-link"
                           onClick={(e) => e.preventDefault()}
                         >
-                          Dasar Hukum<i className="fas fa-chevron-down"></i>
+                          Dasar Hukum <i className="fas fa-chevron-down"></i>
                         </a>
                       </Link>
                       <ul className="dropdown-menu">

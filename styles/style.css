@@ -1,12 +1,6 @@
 /*
 /*
-@File: Raxr Template Styles
 
-* This file contains the styling for the actual template, this
-is the file you need to edit to change the look of the
-template.
-
-This files table contents are outlined below>>>>>
 
 *******************************************
 *******************************************
@@ -256,7 +250,7 @@ p:last-child {
   overflow: hidden;
   z-index: 1;
   color: #ffffff;
-  background-color: #00b0ee;
+  background-color: #2c3482;
   transition: 0.6s;
   border-radius: 10px;
   font-weight: 600;
@@ -274,7 +268,7 @@ p:last-child {
   width: 0;
   height: 0;
   border-radius: 50%;
-  color: #00b0ee;
+  color: #2c3482;
   background-color: #ffffff;
   transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
   transform: translate(-50%, -50%);
@@ -282,7 +276,7 @@ p:last-child {
   border-radius: 5px;
 }
 .default-btn-subklas:hover, .default-btn-subklas:focus {
-  color: #00b0ee;
+  color: #2c3482;
 }
 .default-btn-subklas:hover span, .default-btn-subklas:focus span {
   width: 225%;
