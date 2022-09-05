@@ -7,8 +7,8 @@ import baseUrl from "../../utils/baseUrl";
 
 const alertContent = () => {
   MySwal.fire({
-    title: "Congratulations!",
-    text: "Your message was successfully send and will back to you soon",
+    title: "Selamat!",
+    text: "Pesan Anda telah berhasil terkirim dan akan direspon dalam beberapa saat",
     icon: "success",
     timer: 2000,
     timerProgressBar: true,

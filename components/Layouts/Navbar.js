@@ -108,7 +108,7 @@ class Navbar extends Component {
                     </li>
 
                     <li className="nav-item">
-                      <Link href="/#">
+                      <Link href="/sertifikasi">
                         <a
                           className="nav-link"
                           onClick={(e) => e.preventDefault()}
