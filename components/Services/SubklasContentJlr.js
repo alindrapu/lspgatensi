@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Link from "next/link";
-class SubklasContentGds extends Component {
+class SubklasContentJlr extends Component {
   render() {
     return (
       <section className="software-section p-100 m-5">
@@ -8,14 +8,19 @@ class SubklasContentGds extends Component {
           <div className="row align-items-center">
             <div className="col-lg-6">
               <div className="software-content">
-                <h2>Jabatan Kerja Subklasifikasi Geodesi</h2>
+                <h2>Jabatan Kerja Subklasifikasi Jalan Rel</h2>
 
                 <ul className="features-list">
                   <li>
-                    <span>Ahli Muda Pengukuran Jalan</span>
+                    <span>Ahli Madya Perencana Struktur Jalan Rel</span>
                   </li>
                   <li>
-                    <span>Juru Ukur (Surveyor)</span>
+                    <span>Manajer Teknik Pembangunan Jalan Rel </span>
+                  </li>
+                  <li>
+                    <span>
+                      Pelaksana Lapangan Pekerjaan Pembangunan Jalan Rel
+                    </span>
                   </li>
                 </ul>
 
@@ -43,7 +48,7 @@ class SubklasContentGds extends Component {
 
             <div className="col-lg-6">
               <div className="software-image">
-                <img src="/images/subklas/teodelit.png" alt="image" />
+                <img src="/images/subklas/rel.png" alt="image" />
               </div>
             </div>
           </div>
@@ -53,4 +58,4 @@ class SubklasContentGds extends Component {
   }
 }
 
-export default SubklasContentGds;
+export default SubklasContentJlr;
