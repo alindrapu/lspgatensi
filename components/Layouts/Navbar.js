@@ -209,7 +209,7 @@ class Navbar extends Component {
                       </Link>
                       <ul className="dropdown-menu">
                         <li>
-                          <Link href="/">
+                          <Link href="/peraturan">
                             <a className="nav-link">Peraturan</a>
                           </Link>
                         </li>

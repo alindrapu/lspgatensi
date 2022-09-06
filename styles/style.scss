@@ -1543,6 +1543,21 @@ Main Banner Four Area CSS
 /*================================================
 About Section CSS
 =================================================*/
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
 .about-image {
   text-align: center;
 }
@@ -2994,6 +3009,7 @@ Software Section CSS
       }
       &:hover {
         color: $white-color;
+        cursor: pointer;
         &::before {
           height: 100%;
         }
