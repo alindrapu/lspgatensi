@@ -1,5 +1,10 @@
 import React, { Component } from "react";
 import Link from "next/link";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faWater, faTrainSubway, faBuilding, faBridgeWater, faDroplet, faRoad,
+          faArrowUpFromGroundWater, faArrowUpFromWaterPump, faBuildingLock,
+          faHouseFloodWater, faGlassWaterDroplet, faTrashCan, faTrain, faDraftingCompass,
+          faPersonDigging, faBoreHole, faMound } from "@fortawesome/free-solid-svg-icons";
 
 class DaftarSubklas extends Component {
   render() {
@@ -21,7 +26,7 @@ class DaftarSubklas extends Component {
               <div className="col-lg-3 col-md-6">
                 <div className="single-services-box">
                   <div className="icon">
-                    <i className="flaticon-big-data"></i>
+                    <FontAwesomeIcon icon={faBuilding}></FontAwesomeIcon>
                   </div>
                   <h3>Gedung</h3>
                   <a className="service-btn">
@@ -36,7 +41,7 @@ class DaftarSubklas extends Component {
               <div className="col-lg-3 col-md-6">
                 <div className="single-services-box">
                   <div className="icon">
-                    <i className="flaticon-data-analytics"></i>
+                  <FontAwesomeIcon icon={faMound}></FontAwesomeIcon>
                   </div>
                   <h3>Material</h3>
                   <a className="service-btn">
@@ -51,7 +56,7 @@ class DaftarSubklas extends Component {
               <div className="col-lg-3 col-md-6">
                 <div className="single-services-box">
                   <div className="icon">
-                    <i className="flaticon-document"></i>
+                  <FontAwesomeIcon icon={faRoad}></FontAwesomeIcon>
                   </div>
                   <h3>Jalan</h3>
                   <a className="service-btn">
@@ -66,7 +71,7 @@ class DaftarSubklas extends Component {
               <div className="col-lg-3 col-md-6">
                 <div className="single-services-box">
                   <div className="icon">
-                    <i className="flaticon-chart"></i>
+                  <FontAwesomeIcon icon={faBridgeWater}></FontAwesomeIcon>
                   </div>
                   <h3>Jembatan</h3>
                   <a className="service-btn">
@@ -81,7 +86,7 @@ class DaftarSubklas extends Component {
               <div className="col-lg-3 col-md-6">
                 <div className="single-services-box">
                   <div className="icon">
-                    <i className="flaticon-science"></i>
+                  <FontAwesomeIcon icon={faArrowUpFromGroundWater}></FontAwesomeIcon>
                   </div>
                   <h3>Bendung dan Bendungan</h3>
                   <a className="service-btn">
@@ -96,7 +101,7 @@ class DaftarSubklas extends Component {
               <div className="col-lg-3 col-md-6">
                 <div className="single-services-box">
                   <div className="icon">
-                    <i className="flaticon-data-management"></i>
+                  <FontAwesomeIcon icon={faHouseFloodWater}></FontAwesomeIcon>
                   </div>
                   <h3>Irigasi dan Rawa</h3>
                   <a className="service-btn">
@@ -111,7 +116,7 @@ class DaftarSubklas extends Component {
               <div className="col-lg-3 col-md-6">
                 <div className="single-services-box">
                   <div className="icon">
-                    <i className="flaticon-data-management"></i>
+                  <FontAwesomeIcon icon={faWater}></FontAwesomeIcon>
                   </div>
                   <h3>Sungai dan Pantai</h3>
                   <a className="service-btn">
@@ -126,7 +131,7 @@ class DaftarSubklas extends Component {
               <div className="col-lg-3 col-md-6">
                 <div className="single-services-box">
                   <div className="icon">
-                    <i className="flaticon-data-management"></i>
+                  <FontAwesomeIcon icon={faDroplet}></FontAwesomeIcon>
                   </div>
                   <h3>Air Tanah dan Air Baku</h3>
                   <a className="service-btn">
@@ -141,7 +146,7 @@ class DaftarSubklas extends Component {
               <div className="col-lg-3 col-md-6">
                 <div className="single-services-box">
                   <div className="icon">
-                    <i className="flaticon-big-data"></i>
+                  <FontAwesomeIcon icon={faArrowUpFromWaterPump}></FontAwesomeIcon>
                   </div>
                   <h3>Bangunan Air Minum</h3>
                   <a className="service-btn">
@@ -156,7 +161,7 @@ class DaftarSubklas extends Component {
               <div className="col-lg-3 col-md-6">
                 <div className="single-services-box">
                   <div className="icon">
-                    <i className="flaticon-data-analytics"></i>
+                  <FontAwesomeIcon icon={faBuildingLock}></FontAwesomeIcon>
                   </div>
                   <h3>Drainase Perkotaan</h3>
                   <a className="service-btn">
@@ -171,7 +176,7 @@ class DaftarSubklas extends Component {
               <div className="col-lg-3 col-md-6">
                 <div className="single-services-box">
                   <div className="icon">
-                    <i className="flaticon-document"></i>
+                  <FontAwesomeIcon icon={faTrashCan}></FontAwesomeIcon>
                   </div>
                   <h3>Bangunan Persampahan</h3>
                   <a className="service-btn">
@@ -186,7 +191,7 @@ class DaftarSubklas extends Component {
               <div className="col-lg-3 col-md-6">
                 <div className="single-services-box">
                   <div className="icon">
-                    <i className="flaticon-chart"></i>
+                  <FontAwesomeIcon icon={faGlassWaterDroplet}></FontAwesomeIcon>
                   </div>
                   <h3>Bangunan Air Limbah</h3>
                   <a className="service-btn">
@@ -201,7 +206,7 @@ class DaftarSubklas extends Component {
               <div className="col-lg-3 col-md-6">
                 <div className="single-services-box">
                   <div className="icon">
-                    <i className="flaticon-science"></i>
+                  <FontAwesomeIcon icon={faPersonDigging}></FontAwesomeIcon>
                   </div>
                   <h3>Geoteknik dan Pondasi</h3>
                   <a className="service-btn">
@@ -216,7 +221,7 @@ class DaftarSubklas extends Component {
               <div className="col-lg-3 col-md-6">
                 <div className="single-services-box">
                   <div className="icon">
-                    <i className="flaticon-data-management"></i>
+                  <FontAwesomeIcon icon={faTrain}></FontAwesomeIcon>
                   </div>
                   <h3>Jalan Rel</h3>
                   <a className="service-btn">
@@ -231,7 +236,7 @@ class DaftarSubklas extends Component {
               <div className="col-lg-3 col-md-6">
                 <div className="single-services-box">
                   <div className="icon">
-                    <i className="flaticon-data-management"></i>
+                  <FontAwesomeIcon icon={faDraftingCompass}></FontAwesomeIcon>
                   </div>
                   <h3>Geodesi</h3>
                   <a className="service-btn">
@@ -246,7 +251,7 @@ class DaftarSubklas extends Component {
               <div className="col-lg-3 col-md-6">
                 <div className="single-services-box">
                   <div className="icon">
-                    <i className="flaticon-data-management"></i>
+                  <FontAwesomeIcon icon={faBoreHole}></FontAwesomeIcon>
                   </div>
                   <h3>Grouting</h3>
                   <a className="service-btn">
@@ -256,8 +261,6 @@ class DaftarSubklas extends Component {
                 </div>
               </div>
             </Link>
-
-            
           </div>
         </div>
       </section>

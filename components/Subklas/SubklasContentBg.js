@@ -8,13 +8,12 @@ class SubklasContentBg extends Component {
           <div className="row align-items-center">
             <div className="col-lg-6">
               <div className="software-content">
-                <h2>Jabatan Kerja Subklasifikasi Gedung</h2>
-
+                <h2 className="text-center">Jabatan Kerja Subklasifikasi Gedung</h2>
+                <div className="text-center"><span>Klik jabatan kerja untuk informasi lebih lanjut</span></div>
                 <ul className="features-list">
                   <li>
                     <span>
-                      Ahli Muda Perencana Beton Pracetak Untuk Struktur Bangunan
-                      Gedung
+                      Ahli Muda Perencana Beton Pracetak Untuk Struktur Bangunan Gedung
                     </span>
                   </li>
                   <li>

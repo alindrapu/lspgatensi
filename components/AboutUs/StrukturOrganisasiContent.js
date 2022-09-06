@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class Linimasa extends Component {
+class StrukturOrganisasiContent extends Component {
   render() {
     return (
       <section className="productive-section pt-100">
@@ -13,7 +13,7 @@ class Linimasa extends Component {
                 </div>
                 <img
                   className="mt-20"
-                  src="/images/timeline2.png"
+                  src="/images/struktur.png"
                   alt="timelineimage"
                 />
               </div>
@@ -25,4 +25,4 @@ class Linimasa extends Component {
   }
 }
 
-export default Linimasa;
+export default StrukturOrganisasiContent;
