@@ -182,7 +182,7 @@ class Navbar extends Component {
                       </Link>
                       <ul className="dropdown-menu">
                         <li>
-                          <Link href="/">
+                          <Link href="/struktur-organisasi">
                             <a className="nav-link">Struktur Organisasi</a>
                           </Link>
                         </li>
