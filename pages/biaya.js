@@ -13,8 +13,8 @@ class Pricing extends Component {
         <PageBanner
           pageTitle="Biaya"
           breadcrumbTextOne="Beranda"
-          breadcrumbTextTwo="Biaya"
-          breadcrumbTextThree="Sertifikasi"
+          breadcrumbTextTwo="Sertifikasi"
+          breadcrumbTextThree="Biaya"
           breadcrumbUrl="/"
           bgImage="banner-bg-img3"
         />
