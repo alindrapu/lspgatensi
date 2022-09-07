@@ -214,7 +214,7 @@ class Navbar extends Component {
                           </Link>
                         </li>
                         <li>
-                          <Link href="/">
+                          <Link href="/surat-edaran">
                             <a className="nav-link">Surat Edaran</a>
                           </Link>
                         </li>

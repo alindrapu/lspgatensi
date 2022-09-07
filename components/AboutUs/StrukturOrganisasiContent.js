@@ -9,7 +9,7 @@ class StrukturOrganisasiContent extends Component {
             <div className="col-lg-12">
               <div className="row">
                 <div className="col-lg-12 text-center">
-                  <h1>Linimasa Proses Lisensi LSP Gatensi Karya Konstruksi</h1>
+                  <h1>Struktur Organisasi LSP GATENSI</h1>
                 </div>
                 <img
                   className="mt-20"

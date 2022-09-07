@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Link from "next/link";
 import ScrollAnimation from "react-animate-on-scroll";
+import "animate.css";
 
 class ContentPeraturan extends Component {
   openTabSection = (evt, tabNmae) => {
@@ -31,24 +32,39 @@ class ContentPeraturan extends Component {
                 onClick={(e) => this.openTabSection(e, "tab1")}
               >
                 <span>
-                  Akta Pendirian LSP Gatensi Karya Konstruksi
+                  Keputusan Menteri PUPR
                   <br />
                 </span>
               </li>
 
-              <li onClick={(e) => this.openTabSection(e, "tab2")}>
-                <span>Perizinan Berusaha Berbasis Risiko</span>
+              <li
+                className="current"
+                onClick={(e) => this.openTabSection(e, "tab2")}
+              >
+                <span>
+                  Peraturan BNSP
+                  <br />
+                </span>
               </li>
 
-              <li onClick={(e) => this.openTabSection(e, "tab3")}>
-                <span>Sertifikat Standar kepada Pelaku Usaha</span>
+              <li
+                className="current"
+                onClick={(e) => this.openTabSection(e, "tab3")}
+              >
+                <span>
+                  Peraturan Pemerintah
+                  <br />
+                </span>
               </li>
 
-              <li onClick={(e) => this.openTabSection(e, "tab4")}>
-                <span>SKT & Nomor Pokok Wajib Pajak</span>
-              </li>
-              <li onClick={(e) => this.openTabSection(e, "tab5")}>
-                <span>Surat Keputusan Badan Nasional Sertifikasi Profesi</span>
+              <li
+                className="current"
+                onClick={(e) => this.openTabSection(e, "tab4")}
+              >
+                <span>
+                  Surat Keputusan DJBK
+                  <br />
+                </span>
               </li>
             </ul>
 
@@ -59,20 +75,102 @@ class ContentPeraturan extends Component {
                 <div className="row align-items-center">
                   <div className="col-lg-12 text-center">
                     <div className="col-lg-12 text-center">
-                      <ScrollAnimation
+                      {/* <ScrollAnimation
                         animateIn="zoomIn"
                         delay={50}
                         animateOnce={true}
-                      >
-                        <ul className="full-list">
-                          <li>
-                            <span>
-                              Nomor AHU – 059. AH. 01. 01. TAHUN.2021 Tanggal 07
-                              Januari 2021
-                            </span>
-                          </li>
-                        </ul>
-                      </ScrollAnimation>
+                      > */}
+                      <ul className="full-list">
+                        <li className="animate__animated animate__zoomIn">
+                          <span>
+                            KEPUTUSAN MENTERI PEKERJAAN UMUM DAN PERUMAHAN
+                            RAKYAT NOMOR 713 /KPTS/M/2022
+                          </span>
+                        </li>
+                      </ul>
+                      {/* </ScrollAnimation> */}
+                      <div className="banner-btn mt-5">
+                        <a
+                          className="default-btn-subklas"
+                          href="/files/2022kmpupr713.pdf"
+                          target="_blank"
+                        >
+                          Lihat
+                          <span></span>
+                        </a>
+
+                        <a
+                          className="default-btn-subklas"
+                          href="/files/2022kmpupr713.pdf"
+                          download
+                        >
+                          Unduh
+                          <span></span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="row align-items-center">
+                  <div className="col-lg-12 text-center">
+                    <div className="col-lg-12 text-center">
+                      {/* <ScrollAnimation
+                        animateIn="zoomIn"
+                        delay={50}
+                        animateOnce={true}
+                      > */}
+                      <ul className="full-list">
+                        <li className="animate__animated animate__zoomIn">
+                          <span>
+                            KEPUTUSAN MENTERI PEKERJAAN UMUM DAN PERUMAHAN
+                            RAKYAT NOMOR 559 /KPTS/M/2021
+                          </span>
+                        </li>
+                      </ul>
+                      {/* </ScrollAnimation> */}
+                      <div className="banner-btn mt-5">
+                        <a
+                          className="default-btn-subklas"
+                          href="/files/KEPMEN-PUPR-559.pdf"
+                          target="_blank"
+                        >
+                          Lihat
+                          <span></span>
+                        </a>
+
+                        <a
+                          className="default-btn-subklas"
+                          href="/files/KEPMEN-PUPR-559.pdf"
+                          download
+                        >
+                          Unduh
+                          <span></span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Tabs item 2 */}
+              <div id="tab2" className="tabs_item">
+                <div className="row align-items-center">
+                  <div className="col-lg-12 text-center">
+                    <div className="col-lg-12 text-center">
+                      {/* <ScrollAnimation
+                        animateIn="zoomIn"
+                        delay={50}
+                        animateOnce={true}
+                      > */}
+                      <ul className="full-list">
+                        <li className="animate__animated animate__zoomIn">
+                          <span>
+                            PERATURAN BADAN NASIONAL SERTIFIKASI PROFESI NOMOR :
+                            13/BNSP.218/XII/2013
+                          </span>
+                        </li>
+                      </ul>
+                      {/* </ScrollAnimation> */}
                       <div className="banner-btn mt-5">
                         <a
                           className="default-btn-subklas"
@@ -97,39 +195,83 @@ class ContentPeraturan extends Component {
                 </div>
               </div>
 
-              {/* Tabs item 2 */}
-              <div id="tab2" className="tabs_item">
-                <div className="row align-items-center">
-                  <div className="col-lg-5"></div>
-                  <div className="col-lg-12 text-center">
-                    <ul className="full-list">
-                      <li>
-                        <span>Nomor Induk Berusaha: 1217000132315</span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-
               {/* Tabs item 3 */}
               <div id="tab3" className="tabs_item">
                 <div className="row align-items-center">
                   <div className="col-lg-12 text-center">
                     <div className="col-lg-12 text-center">
+                      {/* <ScrollAnimation
+                        animateIn="zoomIn"
+                        delay={50}
+                        animateOnce={true}
+                      > */}
                       <ul className="full-list">
-                        <li>
-                          <span>Nomor Sertifikat: 1217000132315004</span>
-                        </li>
-                        <li>
-                          <span>Nomor KBLI: 74321</span>
+                        <li className="animate__animated animate__zoomIn">
+                          <span>
+                            SALINAN PERATURAN PEMERINTAH REPUBLIK INDONESIA
+                            NOMOR 14 TAHUN 2O21
+                          </span>
                         </li>
                       </ul>
+                      {/* </ScrollAnimation> */}
+                      <div className="banner-btn mt-5">
+                        <a
+                          className="default-btn-subklas"
+                          href="/files/Salinan-PP-14.pdf"
+                          target="_blank"
+                        >
+                          Lihat
+                          <span></span>
+                        </a>
+
+                        <a
+                          className="default-btn-subklas"
+                          href="/files/Salinan-PP-14.pdf"
+                          download
+                        >
+                          Unduh
+                          <span></span>
+                        </a>
+                      </div>
                     </div>
+                  </div>
+                </div>
+                <div className="row align-items-center">
+                  <div className="col-lg-12 text-center">
+                    <div className="col-lg-12 text-center">
+                      {/* <ScrollAnimation
+                        animateIn="zoomIn"
+                        delay={50}
+                        animateOnce={true}
+                      > */}
+                      <ul className="full-list">
+                        <li className="animate__animated animate__zoomIn">
+                          <span>
+                            LAMPIRAN SALINAN PERATURAN PEMERINTAH REPUBLIK
+                            INDONESIA NOMOR 14 TAHUN 2O21
+                          </span>
+                        </li>
+                      </ul>
+                      {/* </ScrollAnimation> */}
+                      <div className="banner-btn mt-5">
+                        <a
+                          className="default-btn-subklas"
+                          href="/files/Lampiran-Salinan-PP-14.pdf"
+                          target="_blank"
+                        >
+                          Lihat
+                          <span></span>
+                        </a>
 
-                    <div className="tab-solution-content">
-                      <h3></h3>
-
-                      <div className="tab-btn"></div>
+                        <a
+                          className="default-btn-subklas"
+                          href="/files/Lampiran-Salinan-PP-14.pdf"
+                          download
+                        >
+                          Unduh
+                          <span></span>
+                        </a>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -140,44 +282,39 @@ class ContentPeraturan extends Component {
                 <div className="row align-items-center">
                   <div className="col-lg-12 text-center">
                     <div className="col-lg-12 text-center">
+                      {/* <ScrollAnimation
+                        animateIn="zoomIn"
+                        delay={50}
+                        animateOnce={true}
+                      > */}
                       <ul className="full-list">
-                        <li>
-                          <span>Nomor NPWP : 41.105.869.6-017.000</span>
-                        </li>
-                        <li>
-                          <span>Nomor SKT : S-3639KT/WPJ.30/KP.0703/2022</span>
-                        </li>
-                      </ul>
-                    </div>
-
-                    <div className="tab-solution-content">
-                      <h3></h3>
-
-                      <div className="tab-btn"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              {/* Tabs item 5 */}
-              <div id="tab5" className="tabs_item">
-                <div className="row align-items-center">
-                  <div className="col-lg-12 text-center">
-                    <div className="col-lg-12 text-center">
-                      <ul className="full-list">
-                        <li>
+                        <li className="animate__animated animate__zoomIn">
                           <span>
-                            Keputusan Ketua Badan Nasional Sertifikasi Profesi
-                            Nomor KEP. 1094/BNSP/VI/2022 tentang Lisensi Kepada
-                            Lembaga Sertifikasi Profesi Gatensi Karya Konstruksi
+                            KEPUTUSAN DIREKTUR JENDERAL BINA KONSTRUKSI NOMOR
+                            12.1/KPTS/Dk/2022
                           </span>
                         </li>
                       </ul>
-                    </div>
+                      {/* </ScrollAnimation> */}
+                      <div className="banner-btn mt-5">
+                        <a
+                          className="default-btn-subklas"
+                          href="/files/DIRJEN-BK-2022.pdf"
+                          target="_blank"
+                        >
+                          Lihat
+                          <span></span>
+                        </a>
 
-                    <div className="tab-solution-content">
-                      <h3></h3>
-
-                      <div className="tab-btn"></div>
+                        <a
+                          className="default-btn-subklas"
+                          href="/files/DIRJEN-BK-2022.pdf"
+                          download
+                        >
+                          Unduh
+                          <span></span>
+                        </a>
+                      </div>
                     </div>
                   </div>
                 </div>

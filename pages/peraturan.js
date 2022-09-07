@@ -5,7 +5,7 @@ import PageBanner from "../components/Common/PageBanner";
 import Footer from "../components/Layouts/Footer";
 import ContentPeraturan from "../components/DasarHukum/ContentPeraturan";
 
-class PanduanSertifikasi extends Component {
+class Peraturan extends Component {
   render() {
     return (
       <>
@@ -28,4 +28,4 @@ class PanduanSertifikasi extends Component {
   }
 }
 
-export default PanduanSertifikasi;
+export default Peraturan;

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Link from "next/link";
+import ScrollAnimation from "react-animate-on-scroll";
 class SubklasContentGp extends Component {
   render() {
     return (
@@ -8,8 +9,12 @@ class SubklasContentGp extends Component {
           <div className="row align-items-center">
             <div className="col-lg-6">
               <div className="software-content">
-                <h2 className="text-center">Jabatan Kerja Subklasifikasi Geoteknik dan Pondasi</h2>
-                <div className="text-center"><span>Klik jabatan kerja untuk informasi lebih lanjut</span></div>
+                <h2 className="text-center">
+                  Jabatan Kerja Subklasifikasi Geoteknik dan Pondasi
+                </h2>
+                <div className="text-center">
+                  <span>Klik jabatan kerja untuk informasi lebih lanjut</span>
+                </div>
                 <ul className="features-list">
                   <li>
                     <span>Ahli Muda Perencana Pondasi</span>
@@ -40,13 +45,18 @@ class SubklasContentGp extends Component {
                     </a>
                   </Link>
                 </div>
-
               </div>
             </div>
 
             <div className="col-lg-6">
               <div className="software-image">
-                <img src="/images/subklas/geoteknik.png" alt="image" />
+                <ScrollAnimation
+                  animateIn="fadeInUp"
+                  delay={50}
+                  animateOnce={true}
+                >
+                  <img src="/images/subklas/geoteknik.png" alt="image" />
+                </ScrollAnimation>
               </div>
             </div>
           </div>
