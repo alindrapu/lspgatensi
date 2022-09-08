@@ -7,18 +7,18 @@ class ContactInfo extends Component {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-4 col-md-6">
-              <div className="single-contact-box">
-                <a href="https://goo.gl/maps/4pF92x8nTXt2a1S78">
+              <a href="https://goo.gl/maps/4pF92x8nTXt2a1S78">
+                <div className="single-contact-box">
                   <i className="fa fa-map-marker"></i>
-                </a>
-                <div className="content-title">
-                  <h3>Alamat</h3>
-                  <p>
-                    <b>Graha Gapensi</b> Jl. Raya Ragunan No. 1C, Jati Padang,
-                    Pasar Minggu, Jakarta Selatan
-                  </p>
+                  <div className="content-title">
+                    <h3>Alamat</h3>
+                    <p>
+                      <b>Graha Gapensi</b> Jl. Raya Ragunan No. 1C, Jati Padang,
+                      Pasar Minggu, Jakarta Selatan
+                    </p>
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
 
             <div className="col-lg-4 col-md-6">
@@ -33,18 +33,20 @@ class ContactInfo extends Component {
             </div>
 
             <div className="col-lg-4 col-md-6">
-              <div className="single-contact-box">
-                <i className="fa fa-phone"></i>
-                <div className="content-title">
-                  <h3>Telepon</h3>
-                  <p>021 7810444</p>
-                  <p>
-                    <a href="https://api.whatsapp.com/send?phone=6281130570777">
-                      0811 3057 0777 (WA)
-                    </a>
-                  </p>
+              <a href="https://api.whatsapp.com/send?phone=6281130570777">
+                <div className="single-contact-box">
+                  <i className="fa fa-phone"></i>
+                  <div className="content-title">
+                    <h3>Telepon</h3>
+                    <p>021 7810444</p>
+                    <p>
+                      {/* <a href="https://api.whatsapp.com/send?phone=6281130570777"> */}
+                        0811 3057 0777 (WA)
+                      {/* </a> */}
+                    </p>
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
           </div>
         </div>
